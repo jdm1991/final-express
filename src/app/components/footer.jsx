@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="bg-[#255036] text-white py-12 border-t border-[rgba(255,207,64,0.5)]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
+            <div className="md:col-span-1">
               <Image
                 src="/Express.svg"
                 alt="Express Web Designs Logo"
@@ -20,7 +20,7 @@ export default function Footer() {
                 responsive websites for businesses and individuals.
               </p>
             </div>
-            <div>
+            <div className="md:col-span-1 md:pl-8">
               <h3 className="text-xl font-bold mb-4">Navigation</h3>
               <ul className="text-sm space-y-2">
                 <li>
@@ -50,7 +50,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="md:col-span-1">
               <h3 className="text-xl font-bold mb-4">Our Services</h3>
               <ul className="text-sm space-y-2">
                 <li>Web Design</li>
@@ -60,7 +60,7 @@ export default function Footer() {
                 <li>Content Management Systems</li>
               </ul>
             </div>
-            <div>
+            <div className="md:col-span-1">
               <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
               <div className="flex space-x-4">
                 <a
