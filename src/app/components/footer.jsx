@@ -4,25 +4,20 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#255036] text-white py-12 border-t border-[rgba(255,207,64,0.5)]">
+      <footer className="bg-[#255036] text-white py-2 fixed bottom-0 w-full border-t-1 border-[#ffcf40]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="md:col-span-1">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex items-center">
               <Image
                 src="/Express.svg"
-                alt="Express Web Designs Logo"
-                width={160}
-                height={120}
-                className="mb-4"
+                alt="Express Logo"
+                width={80}
+                height={80}
+                className="object-contain w-24 sm:w-32 md:w-40"
               />
-              <p className="text-sm mb-4">
-                We are a web design company dedicated to creating modern and
-                responsive websites for businesses and individuals.
-              </p>
             </div>
-            <div className="md:col-span-1 md:pl-8">
-              <h3 className="text-xl font-bold mb-4">Navigation</h3>
-              <ul className="text-sm space-y-2">
+            <nav>
+              <ul className="flex flex-wrap justify-center space-x-4">
                 <li>
                   <a href="/" className="hover:text-[#ffcf40]">
                     Home
@@ -49,51 +44,45 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="md:col-span-1">
-              <h3 className="text-xl font-bold mb-4">Our Services</h3>
-              <ul className="text-sm space-y-2">
-                <li>Web Design</li>
-                <li>Web Development</li>
-                <li>E-commerce Solutions</li>
-                <li>Search Engine Optimization</li>
-                <li>Content Management Systems</li>
-              </ul>
-            </div>
-            <div className="md:col-span-1">
-              <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="text-white hover:text-[#ffcf40] transition duration-300"
-                >
-                  <FaFacebook size={24} />
-                </a>
-                <a
-                  href="#"
-                  className="text-white hover:text-[#ffcf40] transition duration-300"
-                >
-                  <FaTwitter size={24} />
-                </a>
-                <a
-                  href="#"
-                  className="text-white hover:text-[#ffcf40] transition duration-300"
-                >
-                  <FaInstagram size={24} />
-                </a>
-                <a
-                  href="#"
-                  className="text-white hover:text-[#ffcf40] transition duration-300"
-                >
-                  <FaLinkedin size={24} />
-                </a>
-              </div>
+            </nav>
+            <div className="flex space-x-4">
+              <a
+                href="#"
+                className="text-white hover:text-[#ffcf40] transition duration-300"
+              >
+                <FaFacebook size={30} />
+              </a>
+              <a
+                href="#"
+                className="text-white hover:text-[#ffcf40] transition duration-300"
+              >
+                <FaTwitter size={30} />
+              </a>
+              <a
+                href="#"
+                className="text-white hover:text-[#ffcf40] transition duration-300"
+              >
+                <FaInstagram size={30} />
+              </a>
+              <a
+                href="#"
+                className="text-white hover:text-[#ffcf40] transition duration-300"
+              >
+                <FaLinkedin size={30} />
+              </a>
             </div>
           </div>
-          <hr className="my-8 border-t border-[rgba(255,207,64,0.5)]" />
-          <div className="text-center text-sm">
+          <div className="text-center text-xs mt-4">
             &copy; {new Date().getFullYear()} Express Web Designs. All rights
-            reserved.
+            reserved. <br />A copy of our{" "}
+            <a href="/terms" className="underline">
+              Terms
+            </a>{" "}
+            and{" "}
+            <a href="/privacy" className="underline">
+              Privacy Statement
+            </a>{" "}
+            can be found here.
           </div>
         </div>
       </footer>
