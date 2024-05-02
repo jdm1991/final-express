@@ -1,5 +1,5 @@
 import React from "react";
-import prisma from "../../../lib/prisma";
+import axios from "axios";
 import BlogTileSection from "../components/BlogTileSection";
 
 export default function Blog({ posts }) {
@@ -7,9 +7,16 @@ export default function Blog({ posts }) {
 }
 
 export async function getServerSideProps() {
-  const posts = await prisma.post.findMany();
-  console.log("Fetched posts:", posts);
-  return {
-    props: { posts },
-  };
+  try {
+    const response = await axios.get("http://localhost:3001/api/posts");
+    const posts = response.data;
+    return {
+      props: { posts },
+    };
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+    return {
+      props: { posts: [] },
+    };
+  }
 }
