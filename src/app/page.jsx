@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import BuildaWebsite from "./components/BuildaWebsite";
 import Services from "./components/Services"
 import Process from "./components/Process"
+import BlogTileSection from "./components/BlogTileSection"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
+      <BlogTileSection />
     </>
   );
 }
