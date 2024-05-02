@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Layout from "./layout";
+
 import HeroSection from "./components/HeroSection";
 import BuildaWebsite from "./components/BuildaWebsite";
-import Services from "./components/Services"
-import Process from "./components/Process"
-import BlogTileSection from "./components/BlogTileSection"
+import Services from "./components/Services";
+import Process from "./components/Process";
+import Blog from "./pages/blog";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
-      <BlogTileSection />
+      <Blog /> {/* Render the Blog component */}
     </>
   );
 }
