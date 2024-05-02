@@ -1,6 +1,6 @@
 // BlogTileSection.jsx
 import React from "react";
-import prisma from "../prisma";
+import prisma from "../../../lib/prisma";
 import Image from "next/image";
 
 export const getServerSideProps = async () => {
