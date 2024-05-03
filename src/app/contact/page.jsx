@@ -2,10 +2,10 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="min-h-screen flex flex-col md:flex-row md:h-screen">
       {/* Left Section */}
-      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-start items-center relative">
-        <div className="bg-white p-8 md:p-12 rounded-lg text-black mt-12">
+      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative md:h-full">
+        <div className="bg-white p-8 md:p-12 rounded-lg text-black">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-black">
             Contact Us
           </h2>
@@ -14,11 +14,11 @@ export default function ContactPage() {
               Why not get in touch to find out how we can help you?
             </p>
             <div className="flex flex-col items-center space-y-10">
-              <div className="flex items-center">
+              <div className="flex items-center hover:text-[#ffcf40] hover:bg-gold hover:scale-105 transition duration-300 rounded-md p-2">
                 <FaEnvelope className="mr-4" size={24} />
                 <p className="text-lg md:text-2xl">info@example.com</p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center hover:text-[#ffcf40] hover:bg-gold hover:scale-105 transition duration-300 rounded-md p-2">
                 <FaWhatsapp className="mr-4" size={24} />
                 <p className="text-lg md:text-2xl">+1 234 567 8900</p>
               </div>
@@ -28,72 +28,80 @@ export default function ContactPage() {
       </div>
 
       {/* Right Section */}
-      <div className="w-full md:w-1/2 bg-[#ffcf40] p-8 md:p-12 flex flex-col justify-center">
-        <div className="mt-12 md:mt-16">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
-            Why not send us a message instead?
-          </h2>
-          <form>
-            <div className="mb-4">
-              <label htmlFor="name" className="block text-xs md:text-base mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-xs md:text-base mb-2"
+      <div
+        className="w-full md:w-1/2 bg-cover bg-center md:h-full"
+        style={{
+          backgroundImage: "url('/tablet.jpeg')",
+        }}
+      >
+        <div className="p-8 md:p-12 flex flex-col justify-center h-full">
+          <div className="mt-8 md:mt-12 bg-white/80 p-5 rounded-lg max-h-[80vh]">
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">
+              Why not send us a message instead?
+            </h2>
+            <form>
+              <div className="mb-3">
+                <label htmlFor="name" className="block text-xs md:text-sm mb-1">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
+                  required
+                />
+              </div>
+              <div className="mb-3">
+                <label
+                  htmlFor="email"
+                  className="block text-xs md:text-sm mb-1"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
+                  required
+                />
+              </div>
+              <div className="mb-3">
+                <label
+                  htmlFor="phone"
+                  className="block text-xs md:text-sm mb-1"
+                >
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="message"
+                  className="block text-xs md:text-sm mb-1"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  rows="3"
+                  className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="flex items-center justify-center bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-[#ffcf40] hover:text-black transition duration-300 hover:scale-105"
               >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="phone"
-                className="block text-xs md:text-base mb-2"
-              >
-                Phone Number
-              </label>
-              <input
-                type="tel"
-                id="phone"
-                className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
-                required
-              />
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="message"
-                className="block text-xs md:text-base mb-2"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                rows="4"
-                className="w-full px-2 py-1 md:px-3 md:py-2 text-xs md:text-base border-2 border-[#255036] rounded"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-[#255036] text-white text-xs md:text-base px-6 py-3 rounded-lg hover:bg-[#1c3d28] transition duration-300"
-            >
-              Send Message
-            </button>
-          </form>
+                <span>Send Message</span>
+                <span className="ml-2">→</span>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
