@@ -43,22 +43,22 @@ const Header = () => {
                 About
               </Link>
               <Link
-                href="/projects"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
-              >
-                Projects
-              </Link>
-              <Link
                 href="/services"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
                 Services
               </Link>
               <Link
-                href="/pricing"
+                href="/projects"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
-                Pricing
+                Projects
+              </Link>
+              <Link
+                href="/FAQ's"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              >
+                FAQ's
               </Link>
               <Link
                 href="/contact"
