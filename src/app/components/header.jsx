@@ -61,7 +61,7 @@ const Header = () => {
                 FAQ's
               </Link>
               <Link
-                href="/contact"
+                href="/pages/contact"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
                 Contact
@@ -100,26 +100,20 @@ const Header = () => {
               About
             </Link>
             <Link
-              href="/projects"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Projects
-            </Link>
-            <Link
               href="/services"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
               Services
             </Link>
             <Link
-              href="/pricing"
+              href="/projects"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
-              Pricing
+              Projects
             </Link>
             <Link
-              href="/contact"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              href="/pages/contact"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
             >
               Contact
             </Link>
