@@ -15,7 +15,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
-      <Blog /> {/* Render the Blog component */}
+      <Blog /> 
     </>
   );
 }
