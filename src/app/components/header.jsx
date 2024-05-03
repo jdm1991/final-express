@@ -43,6 +43,18 @@ const Header = () => {
                 About
               </Link>
               <Link
+                href="/webDesign"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              >
+                Website Design
+              </Link>
+              <Link
+                href="/seo"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              >
+                SEO
+              </Link>
+              <Link
                 href="/services"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
