@@ -5,7 +5,10 @@ export default function ContactPage() {
     <div className="min-h-screen flex flex-col md:flex-row md:h-screen">
       {/* Left Section */}
       <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative md:h-full">
-        <div className="bg-white p-8 md:p-12 rounded-lg text-black">
+        {/* Blurred black gradient background */}
+        <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-black to-black blur-xl opacity-10"></div>
+
+        <div className="relative z-10 bg-white p-8 md:p-12 rounded-lg text-black border border-black/10 shadow-[0_0_0_10px_rgba(0,0,0,0.1)]">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-black">
             Contact Us
           </h2>
@@ -16,7 +19,9 @@ export default function ContactPage() {
             <div className="flex flex-col items-center space-y-10">
               <div className="flex items-center hover:text-[#ffcf40] hover:bg-gold hover:scale-105 transition duration-300 rounded-md p-2">
                 <FaEnvelope className="mr-4" size={24} />
-                <p className="text-lg md:text-2xl">info@example.com</p>
+                <p className="text-lg md:text-2xl">
+                  info@expresswebdesigns.co.uk
+                </p>
               </div>
               <div className="flex items-center hover:text-[#ffcf40] hover:bg-gold hover:scale-105 transition duration-300 rounded-md p-2">
                 <FaWhatsapp className="mr-4" size={24} />
