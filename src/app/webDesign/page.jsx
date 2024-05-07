@@ -1,3 +1,6 @@
+// WebsiteDesign.js
+import Process from "../components/Process";
+
 export default function WebsiteDesign() {
   return (
     <div className="pt-16 md:pt-20 lg:pt-24">
@@ -12,7 +15,7 @@ export default function WebsiteDesign() {
         </div>
       </section>
 
-      <section className="py-8 sm:py-12 md:py-16">
+      <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-3/4 bg-amber-500 rounded-lg shadow-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]">
@@ -74,7 +77,7 @@ export default function WebsiteDesign() {
         </div>
       </section>
 
-      <section className="py-4 sm:py-8 md:py-12">
+      <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/4 bg-white rounded-lg shadow-lg p-6 sm:p-8 h-[350px]">
@@ -139,7 +142,7 @@ export default function WebsiteDesign() {
         </div>
       </section>
 
-      <section className="py-8 sm:py-12 md:py-16">
+      <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-3/4 bg-amber-500 rounded-lg shadow-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]">
@@ -198,6 +201,13 @@ export default function WebsiteDesign() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Add the Process component */}
+      <section className="pt-4 sm:pt-6 md:pt-8 pb-8 sm:pb-12 md:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Process size="small" spacing="condensed" />
         </div>
       </section>
     </div>
