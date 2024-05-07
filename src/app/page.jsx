@@ -11,10 +11,10 @@ import Process from "./components/process";
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <BuildaWebsite />
-      <Process />
-      <Services />
+      <heroSection />
+      <buildaWebsite />
+      <process />
+      <services />
     </>
   );
 }
