@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 
-export default function FooterSection() {
+export default function Footer() {
   return (
     <>
       <footer className="bg-[#255036] text-white py-2 bottom-0 w-full border-t-[1px] border-t-black border-b-[1px] border-b-[#ffcf40]">

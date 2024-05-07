@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import "../styles/globals.css";
 
-const Header = () => {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -155,4 +155,3 @@ const Header = () => {
   );
 };
 
-export default Header;
