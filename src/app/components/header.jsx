@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -16,19 +16,19 @@ const Header = () => {
   return (
     <nav className="bg-[#255036] bg-opacity-60 text-white fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-16 lg:h-24">
           <div className="flex items-center">
             <Link href="/">
               <Image
                 src="/Express.svg"
                 alt="Express Logo"
-                width={200}
-                height={200}
-                className="object-contain w-32 sm:w-40 md:w-48 lg:w-80 -ml-8"
+                width={150}
+                height={150}
+                className="object-contain w-24 sm:w-32 md:w-40 lg:w-48"
               />
             </Link>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex lg:items-center lg:ml-10">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 href="/"
@@ -86,6 +86,7 @@ const Header = () => {
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-[#ffcf40] focus:outline-none"
               onClick={toggleMenu}
             >
+              <span className="sr-only">Open main menu</span>
               {isOpen ? (
                 <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
               ) : (
@@ -112,6 +113,18 @@ const Header = () => {
               About
             </Link>
             <Link
+              href="/webDesign"
+              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Website Design
+            </Link>
+            <Link
+              href="/seo"
+              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+            >
+              SEO
+            </Link>
+            <Link
               href="/services"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
@@ -122,6 +135,12 @@ const Header = () => {
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
               Projects
+            </Link>
+            <Link
+              href="/FAQ's"
+              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+            >
+              FAQ's
             </Link>
             <Link
               href="contact"
