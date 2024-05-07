@@ -2,19 +2,19 @@
 
 import { useState, useEffect } from "react";
 
-import heroSection from "./components/heroSection";
-import buildaWebsite from "./components/buildaWebsite";
-import services from "./components/services";
-import process from "./components/process";
+import HeroSection from "./components/HeroSection.jsx";
+import BuildaWebsite from "./components/BuildaWebsite.jsx";
+import Services from "./components/Services.jsx";
+import Process from "./components/Process.jsx";
 
 
 export default function Home() {
   return (
     <>
-      <heroSection />
-      <buildaWebsite />
-      <process />
-      <services />
+      <HeroSection />
+      <BuildaWebsite />
+      <Process />
+      <Services />
     </>
   );
 }
