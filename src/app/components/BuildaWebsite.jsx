@@ -12,12 +12,12 @@ export default function BuildaWebsite() {
               business? As a freelance website designer, I combine my expertise
               in design and online marketing to deliver websites tailored to
               your unique needs. From visually appealing layouts to effective
-              strategies, I'm here to help you achieve your online goals.
+              strategies, I&apos;m here to help you achieve your online goals.
             </p>
             <p className="text-2xl font-light text-gray-700 mt-6">
               I offer comprehensive web design services for businesses of all
               sizes, focusing on user experience and conversion optimization.
-              With full content management capabilities, you'll have the
+              With full content management capabilities, you&apos;ll have the
               flexibility to update your site whenever you need.
             </p>
           </div>

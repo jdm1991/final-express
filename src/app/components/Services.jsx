@@ -67,7 +67,7 @@ export default function Services() {
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
                   We implement effective SEO strategies to improve your
-                  website's visibility and rankings on search engines. Our
+                  website&apos;s visibility and rankings on search engines. Our
                   techniques focus on driving organic traffic, increasing your
                   online reach, and helping your target audience find you
                   easily.

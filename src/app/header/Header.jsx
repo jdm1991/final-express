@@ -70,7 +70,7 @@ export default function Header() {
                 href="/faqs"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
-                FAQ's
+                FAQ&apos;s
               </Link>
               <Link
                 href="contact"
@@ -140,7 +140,7 @@ export default function Header() {
               href="/faqs"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
-              FAQ's
+              FAQ&apos;s
             </Link>
             <Link
               href="contact"
