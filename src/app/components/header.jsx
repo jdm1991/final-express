@@ -67,7 +67,7 @@ const Header = () => {
                 Projects
               </Link>
               <Link
-                href="/FAQ's"
+                href="/faqs"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
                 FAQ's
@@ -137,7 +137,7 @@ const Header = () => {
               Projects
             </Link>
             <Link
-              href="/FAQ's"
+              href="/faqs"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
               FAQ's
