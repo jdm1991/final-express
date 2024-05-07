@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from "react";
 
-import HeroSection from "./components/heroSection";
-import BuildaWebsite from "./components/buildaWebsite";
-import Services from "./components/services";
-import Process from "./components/process";
+import heroSection from "./components/heroSection";
+import buildaWebsite from "./components/buildaWebsite";
+import services from "./components/services";
+import process from "./components/process";
 
 
 export default function Home() {
