@@ -4,12 +4,16 @@ import Process from "../components/Process";
 export default function WebsiteDesign() {
   return (
     <div className="pt-16 md:pt-20 lg:pt-24">
-      <section className="bg-gray-100 py-8 sm:py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+      <section
+        className="bg-gray-100 py-8 sm:py-12 md:py-16 bg-cover bg-center relative"
+        style={{ backgroundImage: "url('/websiteDesignPic.jpeg')" }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
             Website Design
           </h1>
-          <p className="text-xl mb-8">
+          <p className="text-xl mb-8 text-white">
             We create stunning and functional websites tailored to your needs.
           </p>
         </div>
