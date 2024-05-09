@@ -61,24 +61,18 @@ export default function About() {
               <h2 className="text-3xl font-extrabold text-[#255036] sm:text-4xl">
                 Things We Do Differently
               </h2>
-              <ul className="mt-8 max-w-3xl ml-auto text-xl text-gray-600 list-disc list-inside">
-                <li>
-                  We prioritize open and transparent communication with our
-                  clients
-                </li>
-                <li>
-                  We focus on delivering high-quality, custom solutions tailored
-                  to each client's needs
-                </li>
-                <li>
-                  We stay up-to-date with the latest web technologies and design
-                  trends
-                </li>
-                <li>
-                  We provide ongoing support and maintenance to ensure our
-                  clients' websites remain performant and secure
-                </li>
-              </ul>
+              <p className="mt-4 max-w-3xl ml-auto text-xl text-gray-600">
+                At our company, we prioritize open and transparent communication
+                with our clients, ensuring that we understand their unique needs
+                and goals. We focus on delivering high-quality, custom solutions
+                that are tailored to each client's specific requirements. By
+                staying up-to-date with the latest web technologies and design
+                trends, we can create modern and innovative websites that stand
+                out from the competition. Additionally, we provide ongoing
+                support and maintenance to ensure that our clients' websites
+                remain performant, secure, and up-to-date, giving them peace of
+                mind and allowing them to focus on their core business.
+              </p>
             </div>
           </div>
         </section>
