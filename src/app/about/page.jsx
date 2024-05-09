@@ -2,13 +2,13 @@ export default function About() {
   return (
     <>
       <main>
-        <section className="about-intro py-32 sm:py-40 lg:py-48 bg-[#255036] text-white">
+        <section className="about-intro py-20 sm:py-28 lg:py-36 bg-[#255036] text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
+            <div className="text-left">
               <h1 className="text-4xl font-extrabold sm:text-5xl lg:text-6xl">
                 About Us
               </h1>
-              <p className="mt-4 max-w-3xl mx-auto text-xl">
+              <p className="mt-4 max-w-3xl text-xl">
                 We are a small team of web developers and designers who enjoy
                 building various types of websites across a wide range of
                 industries. With a passion for creating engaging and
@@ -21,11 +21,11 @@ export default function About() {
 
         <section className="about-location py-12 sm:py-16 lg:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="lg:text-center">
+            <div className="lg:text-right">
               <h2 className="text-3xl font-extrabold text-[#255036] sm:text-4xl">
                 Located in the Heart of Norfolk, England
               </h2>
-              <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-600">
+              <p className="mt-4 max-w-3xl ml-auto text-xl text-gray-600">
                 Nestled in the picturesque county of Norfolk, our team is proud
                 to call this beautiful region our home. From the charming
                 streets of Norwich to the stunning coastline, we draw
@@ -39,11 +39,11 @@ export default function About() {
 
         <section className="about-approach py-12 sm:py-16 lg:py-20 bg-[#255036] text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="lg:text-center">
+            <div className="lg:text-left">
               <h2 className="text-3xl font-extrabold sm:text-4xl">
                 Our Approach
               </h2>
-              <p className="mt-4 max-w-3xl mx-auto text-xl">
+              <p className="mt-4 max-w-3xl text-xl">
                 As a small and attentive business, we pride ourselves on paying
                 close attention to the needs of people and businesses. We
                 believe in communicating like actual human beings, not corporate
@@ -51,6 +51,34 @@ export default function About() {
                 our clients, understanding their unique requirements and
                 delivering tailored solutions that exceed their expectations.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-difference py-12 sm:py-16 lg:py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-right">
+              <h2 className="text-3xl font-extrabold text-[#255036] sm:text-4xl">
+                Things We Do Differently
+              </h2>
+              <ul className="mt-8 max-w-3xl ml-auto text-xl text-gray-600 list-disc list-inside">
+                <li>
+                  We prioritize open and transparent communication with our
+                  clients
+                </li>
+                <li>
+                  We focus on delivering high-quality, custom solutions tailored
+                  to each client's needs
+                </li>
+                <li>
+                  We stay up-to-date with the latest web technologies and design
+                  trends
+                </li>
+                <li>
+                  We provide ongoing support and maintenance to ensure our
+                  clients' websites remain performant and secure
+                </li>
+              </ul>
             </div>
           </div>
         </section>
