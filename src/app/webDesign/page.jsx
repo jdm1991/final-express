@@ -1,6 +1,7 @@
 // WebsiteDesign.js
 import Process from "../components/Process";
 import Features from "../components/Features"
+import SmallPortfolio from "../components/SmallPortfolio"
 
 export default function WebsiteDesign() {
   return (
@@ -244,8 +245,7 @@ export default function WebsiteDesign() {
           </div>
         </div>
       </section>
-
-      {/* Add the Process component */}
+      <SmallPortfolio />
       <Process />
       <Features />
     </div>
