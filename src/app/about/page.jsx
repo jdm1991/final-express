@@ -43,8 +43,14 @@ export default function About() {
           </div>
         </section>
 
-        <section className="about-approach py-12 sm:py-16 lg:py-20 bg-[#255036] text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="about-approach py-12 sm:py-16 lg:py-20 text-white relative">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Norfolk3.jpeg')`,
+            }}
+          ></div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="lg:text-left">
               <h2 className="text-3xl font-extrabold sm:text-4xl">
                 Our Approach
