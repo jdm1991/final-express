@@ -1,5 +1,6 @@
 // WebsiteDesign.js
 import Process from "../components/Process";
+import Features from "../components/Features"
 
 export default function WebsiteDesign() {
   return (
@@ -245,11 +246,8 @@ export default function WebsiteDesign() {
       </section>
 
       {/* Add the Process component */}
-      <section className="pt-4 sm:pt-6 md:pt-8 pb-8 sm:pb-12 md:pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Process size="small" spacing="condensed" />
-        </div>
-      </section>
+      <Process />
+      <Features />
     </div>
   );
 }
