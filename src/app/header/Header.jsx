@@ -49,7 +49,7 @@ export default function Header() {
                 Website Design
               </Link>
               <Link
-                href="/projects"
+                href="/webHosting"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
               >
                 Web Hosting
@@ -113,22 +113,16 @@ export default function Header() {
               Website Design
             </Link>
             <Link
+              href="/webHosting"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+            >
+              Web Hosting
+            </Link>
+            <Link
               href="/seo"
               className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
             >
               SEO
-            </Link>
-            <Link
-              href="/services"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Services
-            </Link>
-            <Link
-              href="/projects"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Projects
             </Link>
             <Link
               href="/faqs"
