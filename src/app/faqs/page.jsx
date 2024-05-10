@@ -69,12 +69,12 @@ export default function Faqs() {
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
       style={{ paddingTop: "8rem" }}
     >
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-black">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-black">
         Frequently Asked Questions
       </h1>
       {faqs.map((faqCategory, categoryIndex) => (
-        <div key={categoryIndex} className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">{faqCategory.category}</h2>
+        <div key={categoryIndex} className="mb-12">
+          <h2 className="text-2xl font-bold mb-6">{faqCategory.category}</h2>
           {faqCategory.questions.map((faq) => (
             <div
               key={faq.id}
@@ -88,7 +88,7 @@ export default function Faqs() {
                 <ChevronDownIcon
                   className={`${
                     activeQuestion === faq.id ? "transform rotate-180" : ""
-                  } w-5 h-5 text-gray-500 transition-transform duration-500`}
+                  } w-5 h-5 text-gray-500 transition-transform duration-1000`}
                 />
               </button>
               <div
