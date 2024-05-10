@@ -66,22 +66,28 @@ export default function Faqs() {
 
   return (
     <div
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24"
       style={{ paddingTop: "8rem" }}
     >
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-black">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 sm:mb-10 md:mb-12 lg:mb-16 text-black">
         Frequently Asked Questions
       </h1>
       {faqs.map((faqCategory, categoryIndex) => (
-        <div key={categoryIndex} className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">{faqCategory.category}</h2>
+        <div key={categoryIndex} className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 md:mb-8">
+            {faqCategory.category}
+          </h2>
           {faqCategory.questions.map((faq) => (
             <div
               key={faq.id}
-              className="border border-gray-300 rounded-md mb-4 overflow-hidden"
+              className="border border-gray-300 rounded-md mb-4 sm:mb-6 overflow-hidden"
             >
               <button
-                className="flex justify-between items-center w-full px-4 py-2 text-left text-lg font-medium text-gray-700 hover:bg-gray-100 focus:outline-none"
+                className={`flex justify-between items-center w-full px-4 py-2 sm:px-6 sm:py-3 text-left text-base sm:text-lg font-medium text-gray-700 focus:outline-none transition-colors duration-300 ${
+                  activeQuestion === faq.id
+                    ? "bg-[#255036] text-white"
+                    : "hover:bg-[#255036] hover:text-white"
+                }`}
                 onClick={() => toggleAccordion(faq.id)}
               >
                 <span>{faq.question}</span>
@@ -94,11 +100,13 @@ export default function Faqs() {
               <div
                 className={`overflow-hidden transition-all duration-1000 ${
                   activeQuestion === faq.id
-                    ? "max-h-96 ease-in-out"
+                    ? "max-h-96 ease-in-out bg-[#255036]"
                     : "max-h-0 ease-in-out"
                 }`}
               >
-                <div className="px-4 py-2 bg-gray-100">{faq.answer}</div>
+                <div className="px-4 py-2 sm:px-6 sm:py-3 text-white">
+                  {faq.answer}
+                </div>
               </div>
             </div>
           ))}
