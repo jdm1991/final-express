@@ -2,7 +2,7 @@ export default function WebHosting() {
   return (
     <div className="bg-white min-h-screen pt-16 sm:pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12 sm:mb-16 lg:mb-20 text-black">
           Why do I need website maintenance?
         </h1>
 
