@@ -1,42 +1,42 @@
 export default function WebHosting() {
   return (
     <div className="bg-white min-h-screen pt-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold mb-8 text-[#255036]">
+      <div className="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 mr-auto">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-[#255036]">
           Why do I need website maintenance?
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">{/* ... */}</div>
 
-        <h2 className="text-3xl font-semibold mt-12 mb-6 text-[#255036]">
+        <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-[#255036]">
           What's Included?
         </h2>
 
-        <div>
-          <table className="min-w-full divide-y divide-gray-200 table-fixed">
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-[#255036] text-white">
               <tr>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-left text-sm font-medium uppercase tracking-wider"
+                  className="px-4 py-3 sm:px-6 text-left text-xs sm:text-sm font-medium uppercase tracking-wider"
                 >
                   Included
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-left text-sm font-medium uppercase tracking-wider"
+                  className="px-4 py-3 sm:px-6 text-left text-xs sm:text-sm font-medium uppercase tracking-wider"
                 >
                   Basic
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-left text-sm font-medium uppercase tracking-wider"
+                  className="px-4 py-3 sm:px-6 text-left text-xs sm:text-sm font-medium uppercase tracking-wider"
                 >
                   Premium
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-left text-sm font-medium uppercase tracking-wider"
+                  className="px-4 py-3 sm:px-6 text-left text-xs sm:text-sm font-medium uppercase tracking-wider"
                 >
                   Pro
                 </th>
@@ -44,224 +44,226 @@ export default function WebHosting() {
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Hosting
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Super-fast UK website hosting
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">SSL</div>
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
+                    SSL
+                  </div>
+                  <div className="text-sm sm:text-base text-gray-500">
                     Give your website the green padlock
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Daily backups
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Your website is backed up every day
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Up to 2 backups stored
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Up to 3 backups stored
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Up to 5 backups stored
                   </div>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     PHP updates
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Keeping PHP updates to the latest version to avoid error
                     messages
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Website security plugin
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Several extra implementations to try keep your website
                     secure and out of harms way
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Uptime monitoring
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Consistent monitoring of your website to check it's up and
                     running smoothly
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Plugin licenses worth up to £796+VAT/year
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Licenses for critical tools that allow your website to work
                     as you need it to
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                     Included
                   </span>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Extra website changes
                   </div>
-                  <div className="text-base text-gray-500">
+                  <div className="text-sm sm:text-base text-gray-500">
                     Ad-hoc time each month for me to make website
                     changes/additions
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">-</div>
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">-</div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     1-hour (worth £48+VAT)
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     2-hours (worth £96+VAT)
                   </div>
                 </td>
               </tr>
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base font-medium text-gray-900">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base font-medium text-gray-900">
                     Total Price
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     From £45+VAT/month
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     From £60+VAT/month
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-base text-gray-500">
+                <td className="px-4 py-4 sm:px-6 whitespace-nowrap">
+                  <div className="text-sm sm:text-base text-gray-500">
                     From £85+VAT/month
                   </div>
                 </td>
@@ -271,7 +273,7 @@ export default function WebHosting() {
         </div>
 
         <div className="mt-12">
-          <p className="text-sm text-gray-500">
+          <p className="text-xs sm:text-sm text-gray-500">
             *Prices are subject to change based on specific requirements and
             website complexity.
           </p>
