@@ -7,14 +7,14 @@ export default function WebHosting() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-[#255036] text-white p-6 rounded-lg">
+          <div className="bg-amber-500 text-white p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Security Updates</h3>
             <p className="text-sm">
               Keep your website secure and protected against vulnerabilities and
               threats.
             </p>
           </div>
-          <div className="bg-[#255036] text-white p-6 rounded-lg">
+          <div className="bg-lime-500 text-white p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">
               Performance Optimization
             </h3>
@@ -23,7 +23,7 @@ export default function WebHosting() {
               experience.
             </p>
           </div>
-          <div className="bg-[#255036] text-white p-6 rounded-lg">
+          <div className="bg-cyan-500 text-white p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">
               Compatibility Updates
             </h3>
@@ -32,7 +32,7 @@ export default function WebHosting() {
               browser updates.
             </p>
           </div>
-          <div className="bg-[#255036] text-white p-6 rounded-lg">
+          <div className="bg-pink-500 text-white p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Backup and Recovery</h3>
             <p className="text-sm">
               Regular backups to protect your website data and ensure quick
