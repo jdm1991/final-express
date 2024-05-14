@@ -13,43 +13,47 @@ export default function WebHosting() {
           stays compatible with the latest web technologies.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-            <div className="bg-amber-500 text-white p-6 rounded-lg h-28 sm:h-32">
-              <h3 className="text-xl font-semibold mb-2">Security Updates</h3>
-              <p className="text-sm">
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
+            <div className="bg-amber-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <h3 className="text-xl font-semibold mb-2 relative">Security Updates</h3>
+              <p className="text-sm relative">
                 Keep your website secure and protected against vulnerabilities
                 and threats.
               </p>
             </div>
           </div>
-          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-            <div className="bg-lime-500 text-white p-6 rounded-lg h-28 sm:h-32">
-              <h3 className="text-xl font-semibold mb-2">
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
+            <div className="bg-lime-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <h3 className="text-xl font-semibold mb-2 relative">
                 Performance Optimization
               </h3>
-              <p className="text-sm">
+              <p className="text-sm relative">
                 Ensure your website runs smoothly and efficiently for optimal
                 user experience.
               </p>
             </div>
           </div>
-          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-            <div className="bg-cyan-500 text-white p-6 rounded-lg h-28 sm:h-32">
-              <h3 className="text-xl font-semibold mb-2">
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
+            <div className="bg-cyan-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <h3 className="text-xl font-semibold mb-2 relative">
                 Compatibility Updates
               </h3>
-              <p className="text-sm">
+              <p className="text-sm relative">
                 Keep your website compatible with the latest web technologies
                 and browser updates.
               </p>
             </div>
           </div>
-          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-            <div className="bg-pink-500 text-white p-6 rounded-lg h-28 sm:h-32">
-              <h3 className="text-xl font-semibold mb-2">
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
+            <div className="bg-pink-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <h3 className="text-xl font-semibold mb-2 relative">
                 Backup and Recovery
               </h3>
-              <p className="text-sm">
+              <p className="text-sm relative">
                 Regular backups to protect your website data and ensure quick
                 recovery in case of any issues.
               </p>
@@ -64,3 +68,4 @@ export default function WebHosting() {
     </div>
   );
 }
+
