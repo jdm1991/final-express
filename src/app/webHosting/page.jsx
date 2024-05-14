@@ -2,9 +2,14 @@ export default function WebHosting() {
   return (
     <div className="bg-white min-h-screen pt-16 sm:pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12 sm:mb-16 lg:mb-20 text-black">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-black">
           Web Hosting & Maintenance
         </h1>
+        <p className="text-lg sm:text-xl text-gray-600 mb-12 sm:mb-16 lg:mb-20">
+          Your website is a crucial component of your online presence. Regular
+          maintenance ensures that it remains secure, performs optimally, and
+          stays compatible with the latest web technologies.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
             <div className="bg-amber-500 text-white p-6 rounded-lg h-full">
