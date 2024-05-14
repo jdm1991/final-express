@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import "../styles/globals.css";
 
 export default function SEO() {
@@ -10,9 +12,7 @@ export default function SEO() {
         <div className="py-12">
           <h1 className="text-4xl font-bold mb-8">SEO Services</h1>
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">
-              What is SEO and do I need it?
-            </h2>
+            <h2 className="text-2xl font-bold mb-4">What is SEO and do I need it?</h2>
             <p className="text-lg mb-4">
               SEO stands for "search engine optimisation." In its simplest form,
               SEO means the process of improving your website to increase its
@@ -26,55 +26,51 @@ export default function SEO() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-              <div className="bg-amber-500 p-8 rounded-lg shadow-md h-60 text-left relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+              <div className="bg-amber-500 p-8 rounded-lg shadow-md h-60 text-left">
+                <h3 className="text-2xl font-bold text-white mb-4 text-shadow">
                   Trump your competitors
                 </h3>
-                <p className="text-lg font-medium text-white text-shadow relative">
+                <p className="text-lg font-medium text-white text-shadow">
                   Investing in SEO is the best way to become more visible than
-                  your competitors in the search results and avoid losing
-                  business to competitors ranking above you.
+                  your competitors in the search results and avoid losing business
+                  to competitors ranking above you.
                 </p>
               </div>
             </div>
-            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-              <div className="bg-lime-500 p-8 rounded-lg shadow-md h-60 text-left relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+              <div className="bg-lime-500 p-8 rounded-lg shadow-md h-60 text-left">
+                <h3 className="text-2xl font-bold text-white mb-4 text-shadow">
                   Don't pay for Ads
                 </h3>
-                <p className="text-lg font-medium text-white text-shadow relative">
+                <p className="text-lg font-medium text-white text-shadow">
                   Avoid paying through the nose for every single website click!
                   Get traffic for free and build a solid online presence that
                   lasts longer than Ads.
                 </p>
               </div>
             </div>
-            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-              <div className="bg-cyan-500 p-8 rounded-lg shadow-md h-60 text-left relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+              <div className="bg-cyan-500 p-8 rounded-lg shadow-md h-60 text-left">
+                <h3 className="text-2xl font-bold text-white mb-4 text-shadow">
                   24/7 marketing
                 </h3>
-                <p className="text-lg font-medium text-white text-shadow relative">
-                  Making your website visible to those who are searching for
-                  your services or products feels like you have a 24/7 sales
-                  person working for your business.
+                <p className="text-lg font-medium text-white text-shadow">
+                  Making your website visible to those who are searching for your
+                  services or products feels like you have a 24/7 sales person
+                  working for your business.
                 </p>
               </div>
             </div>
-            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-              <div className="bg-red-500 p-8 rounded-lg shadow-md h-60 text-left relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+            <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+              <div className="bg-red-500 p-8 rounded-lg shadow-md h-60 text-left">
+                <h3 className="text-2xl font-bold text-white mb-4 text-shadow">
                   The right first impression
                 </h3>
-                <p className="text-lg font-medium text-white text-shadow relative">
+                <p className="text-lg font-medium text-white text-shadow">
                   From my experience, people have always told me they trust
-                  businesses that rank high in search results. What better way
-                  to provide the best first impression for your business?
+                  businesses that rank high in search results. What better way to
+                  provide the best first impression for your business?
                 </p>
               </div>
             </div>
