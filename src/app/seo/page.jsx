@@ -10,9 +10,13 @@ export default function SEO() {
     <div className="bg-white text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <div className="py-12">
-          <h1 className="text-4xl font-bold mb-8">SEO Services</h1>
+          <h1 className="text-4xl font-bold mb-8">
+            SEO (Search Engine Optimization)
+          </h1>
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">What is SEO and do I need it?</h2>
+            <h2 className="text-2xl font-bold mb-4">
+              What is SEO and do I need it?
+            </h2>
             <p className="text-lg mb-4">
               SEO stands for "search engine optimisation." In its simplest form,
               SEO means the process of improving your website to increase its
@@ -33,8 +37,8 @@ export default function SEO() {
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
                   Investing in SEO is the best way to become more visible than
-                  your competitors in the search results and avoid losing business
-                  to competitors ranking above you.
+                  your competitors in the search results and avoid losing
+                  business to competitors ranking above you.
                 </p>
               </div>
             </div>
@@ -56,9 +60,9 @@ export default function SEO() {
                   24/7 marketing
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
-                  Making your website visible to those who are searching for your
-                  services or products feels like you have a 24/7 sales person
-                  working for your business.
+                  Making your website visible to those who are searching for
+                  your services or products feels like you have a 24/7 sales
+                  person working for your business.
                 </p>
               </div>
             </div>
@@ -69,8 +73,8 @@ export default function SEO() {
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
                   From my experience, people have always told me they trust
-                  businesses that rank high in search results. What better way to
-                  provide the best first impression for your business?
+                  businesses that rank high in search results. What better way
+                  to provide the best first impression for your business?
                 </p>
               </div>
             </div>
