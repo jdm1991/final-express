@@ -5,39 +5,48 @@ export default function WebHosting() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-12 sm:mb-16 lg:mb-20 text-black">
           Why do I need website maintenance?
         </h1>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-amber-500 text-white p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2">Security Updates</h3>
-            <p className="text-sm">
-              Keep your website secure and protected against vulnerabilities and
-              threats.
-            </p>
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <div className="bg-amber-500 text-white p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Security Updates</h3>
+              <p className="text-sm">
+                Keep your website secure and protected against vulnerabilities
+                and threats.
+              </p>
+            </div>
           </div>
-          <div className="bg-lime-500 text-white p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2">
-              Performance Optimization
-            </h3>
-            <p className="text-sm">
-              Ensure your website runs smoothly and efficiently for optimal user
-              experience.
-            </p>
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <div className="bg-lime-500 text-white p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">
+                Performance Optimization
+              </h3>
+              <p className="text-sm">
+                Ensure your website runs smoothly and efficiently for optimal
+                user experience.
+              </p>
+            </div>
           </div>
-          <div className="bg-cyan-500 text-white p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2">
-              Compatibility Updates
-            </h3>
-            <p className="text-sm">
-              Keep your website compatible with the latest web technologies and
-              browser updates.
-            </p>
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <div className="bg-cyan-500 text-white p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">
+                Compatibility Updates
+              </h3>
+              <p className="text-sm">
+                Keep your website compatible with the latest web technologies
+                and browser updates.
+              </p>
+            </div>
           </div>
-          <div className="bg-pink-500 text-white p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2">Backup and Recovery</h3>
-            <p className="text-sm">
-              Regular backups to protect your website data and ensure quick
-              recovery in case of any issues.
-            </p>
+          <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
+            <div className="bg-pink-500 text-white p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">
+                Backup and Recovery
+              </h3>
+              <p className="text-sm">
+                Regular backups to protect your website data and ensure quick
+                recovery in case of any issues.
+              </p>
+            </div>
           </div>
         </div>
 
