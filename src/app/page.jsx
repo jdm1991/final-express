@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection.jsx";
 import BuildaWebsite from "./components/BuildaWebsite.jsx";
 import Services from "./components/Services.jsx";
 import Process from "./components/Process.jsx";
+import blog from './blog/page.jsx'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
+      <blog />
     </>
   );
 }
