@@ -1,13 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
-
 import HeroSection from "./components/HeroSection.jsx";
 import BuildaWebsite from "./components/BuildaWebsite.jsx";
 import Services from "./components/Services.jsx";
 import Process from "./components/Process.jsx";
-import blog from './blog/page.jsx'
-
+import BlogPostTiles from "./components/BlogPostTiles";
 
 export default function Home() {
   return (
@@ -16,7 +13,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
-      <blog />
+      <BlogPostTiles />
     </>
   );
 }

@@ -1,9 +1,10 @@
 -- CreateTable
 CREATE TABLE "Post" (
     "id" SERIAL NOT NULL,
-    "title" VARCHAR(255) NOT NULL,
-    "subtitle" VARCHAR(255) NOT NULL,
-    "body" VARCHAR(1000) NOT NULL,
+    "title" TEXT NOT NULL,
+    "subtitle" TEXT,
+    "body" TEXT,
+    "image" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 

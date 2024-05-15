@@ -8,10 +8,11 @@ generator client {
 }
 
 model Post {
-  id        Int      @id @default(autoincrement())
-  title     String   @db.VarChar(255)
-  subtitle  String   @db.VarChar(255)
-  body      String   @db.VarChar(1000)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id         Int      @id @default(autoincrement())
+  title      String
+  subtitle   String?
+  body       String?
+  image      String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 }

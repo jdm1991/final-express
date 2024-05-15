@@ -17,6 +17,7 @@ async function main() {
       title: "Sample Blog Post",
       subtitle: "This is a sample blog post",
       body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      image: "https://example.com/sample-image.jpg",
     },
   });
 
