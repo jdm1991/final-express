@@ -19,10 +19,10 @@ export default function SEO() {
               What is SEO and do I need it?
             </h2>
             <p className={`text-lg mb-4`}>
-              SEO stands for "search engine optimisation." In its simplest form,
-              SEO means the process of improving your website to increase its
-              visibility on Google, Microsoft Bing, and other search engines
-              when people search for your products or services.
+              SEO stands for &quot;search engine optimisation.&quot; In its
+              simplest form, SEO means the process of improving your website to
+              increase its visibility on Google, Microsoft Bing, and other
+              search engines when people search for your products or services.
             </p>
             <p className={`text-lg`}>
               When I work with you to build your website, ongoing SEO is
