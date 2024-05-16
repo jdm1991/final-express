@@ -42,7 +42,7 @@ export default function ContactPage() {
         <div className="p-8 md:p-12 flex flex-col justify-center h-full">
           <div className="mt-8 md:mt-12 bg-white/80 p-5 rounded-lg max-h-[80vh]">
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
-              Let's talk about your project
+              Let&apos;s talk about your project
             </h2>
             <form>
               <div className="mb-3">

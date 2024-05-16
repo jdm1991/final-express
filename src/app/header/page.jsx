@@ -65,7 +65,7 @@ export default function Header() {
                 href="/faqs"
                 className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
-                FAQ's
+                FAQ&apos;s
               </Link>
               <Link
                 href="contact"
@@ -136,7 +136,7 @@ export default function Header() {
               href="/faqs"
               className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
-              FAQ's
+              FAQ&apos;s
             </Link>
             <Link
               href="contact"

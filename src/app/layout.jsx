@@ -6,11 +6,11 @@ import Footer from "./footer/page";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={titilliumWeb.variable}>
         <Header />
         {children}
         <Footer />
       </body>
     </html>
-  )
+  );
 }
