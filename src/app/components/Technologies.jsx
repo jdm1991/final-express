@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react"
+import { useState } from "react";
 
 export default function Technologies() {
   const technologies = [
@@ -64,6 +64,7 @@ export default function Technologies() {
       logo: "https://www.svgrepo.com/show/373695/jasmine.svg",
     },
   ];
+
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -76,20 +77,20 @@ export default function Technologies() {
           {technologies.map((tech, index) => (
             <div
               key={index}
-              className="flex flex-col items-center space-y-2 transition duration-300 ease-in-out transform"
+              className="flex flex-col items-center space-y-2 transition duration-200 ease-out transform"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
               style={{
                 transform: `scale(${
                   hoveredIndex === index
-                    ? 1.8
+                    ? 2.5
                     : hoveredIndex === index - 1 || hoveredIndex === index + 1
-                    ? 1.15
+                    ? 1.2
                     : 1
                 })`,
               }}
             >
-              <div className="w-14 h-14 relative">
+              <div className="w-10 h-10 relative">
                 <Image
                   src={tech.logo}
                   alt={tech.name}
