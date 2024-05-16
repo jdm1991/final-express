@@ -5,6 +5,11 @@
 @import '@fortawesome/fontawesome-free/css/all.css';
 
 /* globals.css */
+
+:root {
+  --font-titillium-web: 'Titillium Web', sans-serif;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -38,6 +43,5 @@
 }
 
 .slide-out {
-  animation: slideOut 3s forwards; 
+  animation: slideOut 3s forwards;
 }
-

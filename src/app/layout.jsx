@@ -1,4 +1,5 @@
 import "./styles/globals.css";
+import { titilliumWeb } from "../../fonts";
 import Header from "./header/page";
 import Footer from "./footer/page";
 

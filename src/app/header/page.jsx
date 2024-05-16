@@ -33,49 +33,49 @@ export default function Header() {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 href="/"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 About
               </Link>
               <Link
                 href="/webDesign"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 Website Design
               </Link>
               <Link
                 href="/webHosting"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 Web Hosting
               </Link>
               <Link
                 href="/seo"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 SEO
               </Link>
               <Link
                 href="/faqs"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
-                FAQ&apos;s
+                FAQ's
               </Link>
               <Link
                 href="contact"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 Contact
               </Link>
               <Link
                 href="/login"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
               >
                 <BsDoorOpen className="inline-block mr-1" size={20} />
                 Login
@@ -104,49 +104,49 @@ export default function Header() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               href="/"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               About
             </Link>
             <Link
               href="/webDesign"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               Website Design
             </Link>
             <Link
               href="/webHosting"
-              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               Web Hosting
             </Link>
             <Link
               href="/seo"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               SEO
             </Link>
             <Link
               href="/faqs"
-              className="text-white hover:text-[#ffcf40] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
-              FAQ&apos;s
+              FAQ's
             </Link>
             <Link
               href="contact"
-              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               Contact
             </Link>
             <Link
               href="/login"
-              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-medium"
+              className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
             >
               <BsDoorOpen className="inline-block mr-1" size={20} />
               Login
