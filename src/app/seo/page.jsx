@@ -26,7 +26,7 @@ export default function SEO() {
             </p>
             <p className="text-lg">
               When I work with you to build your website, ongoing SEO is
-              optional, but highly recommended in many cases. Here's why my
+              optional, but highly recommended in many cases. Here&apos;s why my
               clients choose to utilise my SEO skills:
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function SEO() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
               <div className="bg-lime-500 p-8 rounded-lg shadow-md h-60 text-left">
                 <h3 className="text-2xl font-bold text-white mb-4 text-shadow">
-                  Don't pay for Ads
+                  Don&apos;t pay for Ads
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
                   Avoid paying through the nose for every single website click!

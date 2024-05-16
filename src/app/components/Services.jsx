@@ -52,7 +52,7 @@ export default function Services() {
                   SEO (Search Engine Optimization)
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
-                  We implement SEO strategies to improve your website's
+                  We implement SEO strategies to improve your website&apos;s
                   visibility and rankings.
                 </p>
                 <Link

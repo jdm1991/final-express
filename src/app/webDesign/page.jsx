@@ -1,8 +1,8 @@
 // WebsiteDesign.js
 import Process from "../components/Process";
-import Features from "../components/Features"
-import SmallPortfolio from "../components/SmallPortfolio"
-import GetInTouch from "../components/GetInTouch"
+import Features from "../components/Features";
+import SmallPortfolio from "../components/SmallPortfolio";
+import GetInTouch from "../components/GetInTouch";
 
 export default function WebsiteDesign() {
   return (
@@ -107,8 +107,8 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                "Express Web's e-commerce package is top-notch. They helped me
-                create a professional online store that boosted my sales
+                "Express Web&apos;s e-commerce package is top-notch. They helped
+                me create a professional online store that boosted my sales
                 significantly!"
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">

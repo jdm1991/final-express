@@ -77,13 +77,13 @@ export default function About() {
                 At our company, we prioritize open and transparent communication
                 with our clients, ensuring that we understand their unique needs
                 and goals. We focus on delivering high-quality, custom solutions
-                that are tailored to each client's specific requirements. By
-                staying up-to-date with the latest web technologies and design
-                trends, we can create modern and innovative websites that stand
-                out from the competition. Additionally, we provide ongoing
-                support and maintenance to ensure that our clients' websites
-                remain performant, secure, and up-to-date, giving them peace of
-                mind and allowing them to focus on their core business.
+                that are tailored to each client&apos;s specific requirements.
+                By staying up-to-date with the latest web technologies and
+                design trends, we can create modern and innovative websites that
+                stand out from the competition. Additionally, we provide ongoing
+                support and maintenance to ensure that our clients&apos;
+                websites remain performant, secure, and up-to-date, giving them
+                peace of mind and allowing them to focus on their core business.
               </p>
             </div>
           </div>

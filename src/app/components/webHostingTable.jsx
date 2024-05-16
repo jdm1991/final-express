@@ -161,8 +161,8 @@ export default function WebTable() {
                   Uptime monitoring
                 </div>
                 <div className="text-sm text-gray-500">
-                  Consistent monitoring of your website to check it's up and
-                  running smoothly
+                  Consistent monitoring of your website to check it&apos;s up
+                  and running smoothly
                 </div>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">

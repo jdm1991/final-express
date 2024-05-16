@@ -75,10 +75,10 @@ export default function Technologies() {
         </h2>
         <p className="text-lg text-[#255036] mb-10">
           A lot of Website Designers like to use quick and easy template
-          solutions. However, we don't like to shoehorn ourselves when it comes
-          to what we use to build websites for our clients. We have the
+          solutions. However, we don&apos;t like to shoehorn ourselves when it
+          comes to what we use to build websites for our clients. We have the
           expertise to use all the technologies currently available, and use
-          them depending on what's best for you.
+          them depending on what&apos;s best for you.
         </p>
         <div className="hidden md:flex justify-between items-center">
           {technologies.map((tech, index) => (

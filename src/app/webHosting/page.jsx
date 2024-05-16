@@ -64,7 +64,7 @@ export default function WebHosting() {
           </div>
         </div>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-8 sm:mt-12 mb-4 sm:mb-6 text-[#255036]">
-          What's Included?
+          What&apos;s Included?
         </h2>
         <WebHostingTable />
       </div>
