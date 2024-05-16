@@ -9,7 +9,7 @@ export default function Process() {
       <section className="bg-white py-12">
         <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
-            Our Process
+            Our Process:
           </h2>
           <div className="flex justify-center items-center space-x-10">
             <div className="flex flex-col items-center space-y-2 hover:scale-110 transition-all duration-300">

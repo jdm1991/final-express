@@ -70,9 +70,16 @@ export default function Technologies() {
   return (
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-6 text-left">
           Technologies that we use
         </h2>
+        <p className="text-lg text-[#255036] mb-10">
+          A lot of Website Designers like to use quick and easy template
+          solutions. However, we don't like to shoehorn ourselves when it comes
+          to what we use to build websites for our clients. We have the
+          expertise to use all the technologies currently available, and use
+          them depending on what's best for you.
+        </p>
         <div className="flex justify-between items-center">
           {technologies.map((tech, index) => (
             <div
@@ -83,14 +90,14 @@ export default function Technologies() {
               style={{
                 transform: `scale(${
                   hoveredIndex === index
-                    ? 2.5
+                    ? 1.7
                     : hoveredIndex === index - 1 || hoveredIndex === index + 1
-                    ? 1.2
+                    ? 1.05
                     : 1
                 })`,
               }}
             >
-              <div className="w-10 h-10 relative">
+              <div className="w-12 h-12 relative">
                 <Image
                   src={tech.logo}
                   alt={tech.name}
