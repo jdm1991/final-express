@@ -80,7 +80,7 @@ export default function Technologies() {
           expertise to use all the technologies currently available, and use
           them depending on what's best for you.
         </p>
-        <div className="flex justify-between items-center">
+        <div className="hidden md:flex justify-between items-center">
           {technologies.map((tech, index) => (
             <div
               key={index}
