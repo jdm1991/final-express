@@ -84,9 +84,9 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                "Express Web helped me create a beautiful website for my
+                {`"Express Web helped me create a beautiful website for my
                 business. Their team was professional and delivered exceptional
-                results!"
+                results!"`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                 - John Doe, CEO of ABC Company
@@ -107,9 +107,9 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                "Express Web&apos;s e-commerce package is top-notch. They helped
+                {`"Express Web's e-commerce package is top-notch. They helped
                 me create a professional online store that boosted my sales
-                significantly!"
+                significantly!"`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                 - Jane Smith, Founder of XYZ Store
@@ -235,9 +235,9 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                "Express Web helped me create a beautiful website for my
+                {`"Express Web helped me create a beautiful website for my
                 business. Their team was professional and delivered exceptional
-                results!"
+                results!"`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                 - John Doe, CEO of ABC Company
