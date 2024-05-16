@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react"
 
 export default function Technologies() {
   const technologies = [
@@ -63,6 +64,7 @@ export default function Technologies() {
       logo: "https://www.pngfind.com/pngs/m/68-684650_test-frameworks-jasmine-js-logo-png-transparent-png.png",
     },
   ];
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
     <section className="bg-white py-12">
@@ -70,11 +72,22 @@ export default function Technologies() {
         <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
           Technologies that we use
         </h2>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex justify-between items-center">
           {technologies.map((tech, index) => (
             <div
               key={index}
-              className="flex flex-col items-center space-y-2 transition duration-300 ease-in-out transform hover:scale-110"
+              className="flex flex-col items-center space-y-2 transition duration-300 ease-in-out transform"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              style={{
+                transform: `scale(${
+                  hoveredIndex === index
+                    ? 1.5
+                    : hoveredIndex === index - 1 || hoveredIndex === index + 1
+                    ? 1.25
+                    : 1
+                })`,
+              }}
             >
               <div className="w-16 h-16 relative">
                 <Image
@@ -84,7 +97,7 @@ export default function Technologies() {
                   objectFit="contain"
                 />
               </div>
-              <p className="text-sm font-semibold text-[#255036] text-center">
+              <p className="text-xs font-semibold text-[#255036] text-center">
                 {tech.name}
               </p>
             </div>
