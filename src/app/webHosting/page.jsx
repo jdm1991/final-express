@@ -1,3 +1,4 @@
+import GetInTouch from "../components/GetInTouch";
 import WebHostingTable from "../components/webHostingTable";
 
 export default function WebHosting() {
@@ -16,7 +17,9 @@ export default function WebHosting() {
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
             <div className="bg-amber-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-              <h3 className="text-xl font-semibold mb-2 relative">Security Updates</h3>
+              <h3 className="text-xl font-semibold mb-2 relative">
+                Security Updates
+              </h3>
               <p className="text-sm relative">
                 Keep your website secure and protected against vulnerabilities
                 and threats.
@@ -65,6 +68,7 @@ export default function WebHosting() {
         </h2>
         <WebHostingTable />
       </div>
+      <GetInTouch />
     </div>
   );
 }
