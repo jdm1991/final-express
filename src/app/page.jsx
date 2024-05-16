@@ -6,6 +6,7 @@ import Services from "./components/Services.jsx";
 import Process from "./components/Process.jsx";
 import BlogPostTiles from "./components/BlogPostTiles";
 import Technologies from "./components/Technologies.jsx";
+import GetInTouch from "./components/GetInTouch.jsx";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Technologies />
       <BlogPostTiles />
+      <GetInTouch />
     </>
   );
 }
