@@ -33,13 +33,13 @@ export default function Header() {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 href="/"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-medium"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-normal"
+                className="text-white hover:text-[#ffcf40] px-3 py-2 rounded-md text-med font-titilliumWeb font-medium"
               >
                 About
               </Link>
