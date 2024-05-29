@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import GetInTouch from "../components/GetInTouch";
 
 const faqs = [
   {
