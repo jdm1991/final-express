@@ -1,4 +1,5 @@
 const { PrismaClient } = require("@prisma/client");
+const bcrypt = require("bcrypt");
 
 const prisma = new PrismaClient();
 
@@ -6,6 +7,7 @@ async function main() {
   // Clear all data from the database
   await prisma.$transaction([
     prisma.post.deleteMany(),
+    prisma.user.deleteMany(),
     // Add any other models you want to clear here
   ]);
 
@@ -40,6 +42,17 @@ async function main() {
   });
 
   console.log("Created blog posts:", post1, post2, post3);
+
+  // Create a user record
+  const hashedPassword = await bcrypt.hash("admin", 10);
+  const user = await prisma.user.create({
+    data: {
+      email: "admin@example.com",
+      password: hashedPassword,
+    },
+  });
+
+  console.log("Created user:", user);
 }
 
 main()

@@ -2,18 +2,32 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import "../styles/globals.css";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your login logic here
-    console.log("Email:", email);
-    console.log("Password:", password);
+
+    try {
+      const response = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (response.ok) {
+        // Redirect to the admin page
+        window.location.href = "/admin";
+      } else {
+        // Handle login error
+        console.log("Login failed");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   return (
