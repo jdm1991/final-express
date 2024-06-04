@@ -12,7 +12,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-amber-500 p-8 rounded-lg shadow-md h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-3xl font-bold text-white mb-4 text-shadow relative">
                   Website Design
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
@@ -30,7 +30,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-cyan-500 p-8 rounded-lg shadow-md h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-3xl font-bold text-white mb-4 text-shadow relative">
                   Web Hosting & Maintenance
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
@@ -48,7 +48,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-pink-500 p-8 rounded-lg shadow-md h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-3xl font-bold text-white mb-4 text-shadow relative">
                   SEO (Search Engine Optimization)
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
@@ -66,7 +66,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-lime-500 p-8 rounded-lg shadow-md h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-3xl font-bold text-white mb-4 text-shadow relative">
                   Website Copywriting
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
@@ -84,7 +84,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-red-500 p-8 rounded-lg shadow-md h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-3xl font-bold text-white mb-4 text-shadow relative">
                   Website Consultancy
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow relative mb-8">
