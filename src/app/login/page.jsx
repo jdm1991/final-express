@@ -1,32 +1,28 @@
-"use client";
+// src/app/login/page.jsx
+'use client';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
-import React, { useState } from "react";
-import Image from "next/image";
-import "../styles/globals.css";
-
-export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+export default function LoginPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const response = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    });
 
-    try {
-      const response = await fetch("/api/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
-      });
-
-      if (response.ok) {
-        // Redirect to the admin page
-        window.location.href = "/admin";
-      } else {
-        // Handle login error
-        console.log("Login failed");
-      }
-    } catch (error) {
-      console.error("Error:", error);
+    if (response.ok) {
+      const { token } = await response.json();
+      // Store the token securely (e.g., in an HTTP-only cookie or local storage)
+      localStorage.setItem('token', token);
+      router.push('/admin');
+    } else {
+      // Handle login error
     }
   };
 
@@ -35,9 +31,6 @@ export default function Login() {
       <div className="max-w-md w-full space-y-8 mt-12">
         <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 border border-[#255036]">
           <div className="flex flex-col items-center">
-            <div className="bg-[#255036] p-1 rounded-lg w-48 flex justify-center">
-              <Image src="/Express.svg" alt="Logo" width={120} height={40} />
-            </div>
             <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
               Sign in to your account
             </h2>
