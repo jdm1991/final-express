@@ -1,5 +1,6 @@
+// app/admin/page.js
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const ClientAdminPage = () => {
   // State for blog inputs
@@ -9,23 +10,70 @@ const ClientAdminPage = () => {
   const [blogContent, setBlogContent] = useState("");
 
   // State for blog posts
-  const [blogPosts, setBlogPosts] = useState([
-    { id: 1, title: "Blog Post 1", subtitle: "Subtitle 1" },
-    { id: 2, title: "Blog Post 2", subtitle: "Subtitle 2" },
-    { id: 3, title: "Blog Post 3", subtitle: "Subtitle 3" },
-  ]);
+  const [blogPosts, setBlogPosts] = useState([]);
+
+  // Fetch blog posts from the database
+  useEffect(() => {
+    const fetchBlogPosts = async () => {
+      try {
+        const response = await fetch("/api/blog");
+        const posts = await response.json();
+        setBlogPosts(posts);
+      } catch (error) {
+        console.error("Error fetching blog posts:", error);
+      }
+    };
+
+    fetchBlogPosts();
+  }, []);
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Do something with the blog data
-    console.log({ blogTitle, blogSubtitle, blogImageUrl, blogContent });
+
+    try {
+      const response = await fetch("/api/blog", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title: blogTitle,
+          subtitle: blogSubtitle,
+          image: blogImageUrl,
+          content: blogContent,
+        }),
+      });
+
+      if (response.ok) {
+        // Fetch updated blog posts after successful submission
+        const posts = await response.json();
+        setBlogPosts(posts);
+
+        // Reset form inputs
+        setBlogTitle("");
+        setBlogSubtitle("");
+        setBlogImageUrl("");
+        setBlogContent("");
+      } else {
+        console.error("Error creating blog post");
+      }
+    } catch (error) {
+      console.error("Error creating blog post:", error);
+    }
   };
 
   // Handle deleting a blog post
-  const handleDelete = (id) => {
-    // Remove the blog post with the specified ID from the blogPosts array
-    setBlogPosts(blogPosts.filter((post) => post.id !== id));
+  const handleDelete = async (id) => {
+    try {
+      await fetch(`/api/blog/${id}`, {
+        method: "DELETE",
+      });
+      // Remove the deleted blog post from the state
+      setBlogPosts(blogPosts.filter((post) => post.id !== id));
+    } catch (error) {
+      console.error("Error deleting blog post:", error);
+    }
   };
 
   return (
@@ -89,7 +137,7 @@ const ClientAdminPage = () => {
         </form>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Current Blog Posts</h2>
-        <table className="w-full border-collapse mb-16">
+        <table className="w-full border-collapse mb-8">
           <thead>
             <tr>
               <th className="py-2 px-4 border-b">ID</th>

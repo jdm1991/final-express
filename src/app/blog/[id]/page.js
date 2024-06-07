@@ -1,20 +1,12 @@
+// app/blog/[id]/page.js
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
-
-export async function generateStaticParams() {
-  const posts = await prisma.post.findMany();
-
-  return posts.map((post) => ({
-    id: post.id.toString(),
-  }));
-}
 
 async function getPostData(id) {
   const post = await prisma.post.findUnique({
     where: { id: parseInt(id) },
   });
-
   return post;
 }
 
@@ -32,20 +24,26 @@ export default async function BlogPost({ params }) {
           <h1 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
             {post.title}
           </h1>
-          <p className="text-xl font-medium text-gray-600 mb-8 text-left">
-            {post.subtitle}
-          </p>
-          <div className="mb-8">
-            <img
-              src={post.image}
-              alt={post.title}
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="text-left">
-            <p className="text-lg font-medium text-gray-700 mb-6">
-              {post.body}
+          {post.subtitle && (
+            <p className="text-xl font-medium text-gray-600 mb-8 text-left">
+              {post.subtitle}
             </p>
+          )}
+          {post.image && (
+            <div className="mb-8">
+              <img
+                src={post.image}
+                alt={post.title}
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          )}
+          <div className="text-left">
+            {post.body && (
+              <p className="text-lg font-medium text-gray-700 mb-6">
+                {post.body}
+              </p>
+            )}
             <p className="text-sm font-medium text-gray-500">
               Created: {new Date(post.createdAt).toLocaleString()}
             </p>
@@ -57,4 +55,11 @@ export default async function BlogPost({ params }) {
       </div>
     </section>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await prisma.post.findMany();
+  return posts.map((post) => ({
+    id: post.id.toString(),
+  }));
 }

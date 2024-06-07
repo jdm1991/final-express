@@ -1,5 +1,5 @@
+// app/components/BlogPostTiles.js
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const BlogPostTiles = () => {
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
-        const response = await fetch("/blog");
+        const response = await fetch("/api/blog");
         const posts = await response.json();
         setBlogPosts(posts);
       } catch (error) {
@@ -31,15 +31,19 @@ const BlogPostTiles = () => {
             {blogPosts.map((post) => (
               <Link href={`/blog/${post.id}`} key={post.id}>
                 <div className="bg-green-100 p-6 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-48 object-cover rounded-lg mb-4"
-                  />
+                  {post.image && (
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                  )}
                   <h3 className="text-2xl font-bold text-[#255036] mb-2">
                     {post.title}
                   </h3>
-                  <p className="text-gray-700 mb-4">{post.subtitle}</p>
+                  {post.subtitle && (
+                    <p className="text-gray-700 mb-4">{post.subtitle}</p>
+                  )}
                   <p className="text-gray-600">
                     Created: {new Date(post.createdAt).toLocaleString()}
                   </p>
