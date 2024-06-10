@@ -63,18 +63,23 @@ const ClientAdminPage = () => {
     }
   };
 
-  // Handle deleting a blog post
-  const handleDelete = async (id) => {
-    try {
-      await fetch(`/api/blog/${id}`, {
-        method: "DELETE",
-      });
-      // Remove the deleted blog post from the state
-      setBlogPosts(blogPosts.filter((post) => post.id !== id));
-    } catch (error) {
-      console.error("Error deleting blog post:", error);
+const handleDelete = async (id) => {
+  try {
+    const response = await fetch(`/api/blog/${id}`, {
+      method: "DELETE",
+    });
+
+    if (response.ok) {
+      // Fetch updated blog posts after successful deletion
+      const posts = await response.json();
+      setBlogPosts(posts);
+    } else {
+      console.error("Error deleting blog post");
     }
-  };
+  } catch (error) {
+    console.error("Error deleting blog post:", error);
+  }
+};
 
   return (
     <div className="min-h-screen pt-28 md:pt-32 lg:pt-40 px-4 md:px-8 lg:px-16">
