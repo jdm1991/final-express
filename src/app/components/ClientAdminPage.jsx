@@ -46,9 +46,8 @@ const ClientAdminPage = () => {
       });
 
       if (response.ok) {
-        // Fetch updated blog posts after successful submission
-        const posts = await response.json();
-        setBlogPosts(posts);
+        const newPost = await response.json();
+        setBlogPosts([newPost, ...blogPosts]);
 
         // Reset form inputs
         setBlogTitle("");
@@ -62,7 +61,7 @@ const ClientAdminPage = () => {
       console.error("Error creating blog post:", error);
     }
   };
-
+  
 const handleDelete = async (id) => {
   try {
     const response = await fetch(`/api/blog/${id}`, {
