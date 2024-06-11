@@ -17,8 +17,11 @@ export default function Services() {
                   Website Design
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-8">
-                  We create visually appealing and user-friendly websites that
-                  effectively showcase your brand identity.
+                  With a committment to excellence, one of our web designers
+                  will create a detailed plan that guides our creative direction
+                  as we create your website. If you aren&apos;t happy, we
+                  aren&apos;t happy, and we will hone your website until it is
+                  ready.
                 </p>
                 <Link
                   href="/webDesign"
@@ -37,8 +40,10 @@ export default function Services() {
                   Web Hosting & Maintenance
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-8">
-                  We provide reliable hosting and keep your website optimized
-                  and secure.
+                  Having a website is one thing, ensuring it&apos;s reliably
+                  available and well maintained is another. We host your website
+                  right here in the U.K, and ensure that everything you need
+                  from support, to updates are taken care off.
                 </p>
                 <Link
                   href="/webHosting"
@@ -57,8 +62,11 @@ export default function Services() {
                   SEO (Search Engine Optimization)
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-8">
-                  We implement SEO strategies to improve your website&apos;s
-                  visibility and rankings.
+                  Ensuring that your website is optimised to be easily found by
+                  search engines is one of the most cost effective, and
+                  important ways of marketing your business. With our complete
+                  SEO service, we&apos;re able to help your website reach its
+                  full potential.
                 </p>
                 <Link
                   href="/seo"
@@ -77,8 +85,9 @@ export default function Services() {
                   Website Copywriting
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-8">
-                  Our expert copywriters craft compelling content that
-                  captivates your audience.
+                  Unsure what to put on your website? Our expert copywriting
+                  team crafts compelling content that is relevant to your
+                  audience.
                 </p>
                 <Link
                   href="/website-copywriting"
@@ -97,8 +106,10 @@ export default function Services() {
                   Website Consultancy
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-8">
-                  Our consultants provide expert advice to improve your online
-                  presence.
+                  If you&apos;re unsure on where to start, if you have a website
+                  already and would like some feedback on its strengths and
+                  weaknesses, or if you would just like to have a conversation,
+                  we are more than happy to help.
                 </p>
                 <Link
                   href="/website-consultancy"
