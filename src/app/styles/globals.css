@@ -45,3 +45,23 @@
 .slide-out {
   animation: slideOut 3s forwards;
 }
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.typing {
+  animation: typing 3s steps(40, end);
+  border-right: 0.15em solid white;
+}
+
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 0.2em; /* Add padding at the bottom */
+}

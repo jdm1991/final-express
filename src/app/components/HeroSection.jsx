@@ -2,16 +2,22 @@ import { useState, useEffect } from "react";
 
 export default function HeroSection() {
   const [backgroundImage, setBackgroundImage] = useState("Coding.jpeg");
+  const [typingAnimation, setTypingAnimation] = useState(true);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const backgroundIntervalId = setInterval(() => {
       setBackgroundImage((prevImage) =>
         prevImage === "Coding.jpeg" ? "Countryside.jpeg" : "Coding.jpeg"
       );
     }, 10000);
 
+    const typingIntervalId = setInterval(() => {
+      setTypingAnimation((prevAnimation) => !prevAnimation);
+    }, 20000);
+
     return () => {
-      clearInterval(intervalId);
+      clearInterval(backgroundIntervalId);
+      clearInterval(typingIntervalId);
     };
   }, []);
 
@@ -19,7 +25,11 @@ export default function HeroSection() {
     <div className="relative h-screen">
       <div className="absolute inset-0 flex items-center justify-center z-10">
         <div className="text-center text-white px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          <h1
+            className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 ${
+              typingAnimation ? "typing" : ""
+            }`}
+          >
             Welcome to Our Web Design Studio
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">
