@@ -70,7 +70,7 @@ export default function Technologies() {
   return (
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-6 text-left">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-6 md:text-left text-center">
           Technologies We Use
         </h2>
         <p className="text-lg text-[#255036] mb-10">
@@ -97,6 +97,23 @@ export default function Technologies() {
                 })`,
               }}
             >
+              <div className="w-12 h-12 relative">
+                <Image
+                  src={tech.logo}
+                  alt={tech.name}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+              <p className="text-xs font-semibold text-[#255036] text-center">
+                {tech.name}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="md:hidden grid grid-cols-4 gap-4 gap-y-8">
+          {technologies.map((tech, index) => (
+            <div key={index} className="flex flex-col items-center space-y-2">
               <div className="w-12 h-12 relative">
                 <Image
                   src={tech.logo}
