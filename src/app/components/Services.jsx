@@ -6,7 +6,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-center sm:text-left">
-            What We Excel At
+            What We Excel At:
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Website Design */}

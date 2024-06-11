@@ -25,7 +25,7 @@ const BlogPostTiles = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
-            Our Latest Blog Posts
+            Our Latest Blog Posts:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
