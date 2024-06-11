@@ -71,7 +71,7 @@ export default function Technologies() {
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-6 text-left">
-          Technologies that we use
+          Technologies We Use
         </h2>
         <p className="text-lg text-[#255036] mb-10">
           A lot of Website Designers like to use quick and easy template
