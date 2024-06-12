@@ -19,8 +19,9 @@ export default function Services() {
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
                   With a committment to excellence, one of our web designers
                   will create a detailed plan that guides our creative direction
-                  as we create your website. If you aren't happy, we aren't
-                  happy, and we will hone your website until it is ready.
+                  as we create your website. If you aren&apos;t happy, we
+                  aren&apos;t happy, and we will hone your website until it is
+                  ready.
                 </p>
                 <Link
                   href="/webDesign"
@@ -39,7 +40,7 @@ export default function Services() {
                   Web Hosting & Maintenance
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
-                  Having a website is one thing, ensuring it's reliably
+                  Having a website is one thing, ensuring it&apos;s reliably
                   available and well maintained is another. We host your website
                   right here in the U.K, and ensure that everything you need
                   from support, to updates are taken care off.
@@ -64,8 +65,8 @@ export default function Services() {
                   Ensuring that your website is optimised to be easily found by
                   search engines is one of the most cost effective, and
                   important ways of marketing your business. With our complete
-                  SEO service, we're able to help your website reach its full
-                  potential.
+                  SEO service, we&apos;re able to help your website reach its
+                  full potential.
                 </p>
                 <Link
                   href="/seo"
@@ -105,7 +106,7 @@ export default function Services() {
                   Website Consultancy
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
-                  If you're unsure on where to start, if you have a website
+                  If you&apos;re unsure on where to start, if you have a website
                   already and would like some feedback on its strengths and
                   weaknesses, or if you would just like to have a conversation,
                   we are more than happy to help.
