@@ -177,7 +177,7 @@ export default function WebsiteDesign() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div
-              className="md:w-3/4 bg-amber-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]"
+              className="md:w-3/4 bg-pink-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",

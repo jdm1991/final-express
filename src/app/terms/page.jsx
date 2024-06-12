@@ -90,7 +90,7 @@ export default function Terms() {
             </h2>
             <p className="text-lg font-medium text-gray-700 mb-6">
               Express Web Designs reserves the right to modify these terms and
-              conditions at any time. It is the client's responsibility to
+              conditions at any time. It is the client&apos;s responsibility to
               review these terms periodically for changes.
             </p>
             <p className="text-lg font-medium text-gray-700">

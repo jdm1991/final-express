@@ -47,7 +47,7 @@ export default function Privacy() {
                 or where permitted by law.
               </li>
               <li>
-                To analyze website usage trends and optimize our website's
+                To analyze website usage trends and optimize our website&apos;s
                 performance.
               </li>
             </ul>
@@ -103,7 +103,7 @@ export default function Privacy() {
               websites.
             </p>
             <h2 className="text-2xl font-bold text-[#255036] mb-4">
-              Children's Privacy
+              Children&apos;s Privacy
             </h2>
             <p className="text-lg font-medium text-gray-700 mb-6">
               Our services are not directed to children under the age of 13. We
@@ -115,8 +115,8 @@ export default function Privacy() {
             </h2>
             <p className="text-lg font-medium text-gray-700 mb-6">
               We may update this Privacy Policy from time to time. The updated
-              version will be indicated by an updated "Effective Date" at the
-              top of this page.
+              version will be indicated by an updated &quot;Effective Date&quot;
+              at the top of this page.
             </p>
             <h2 className="text-2xl font-bold text-[#255036] mb-4">
               Contact Us
