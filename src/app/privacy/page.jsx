@@ -7,7 +7,7 @@ export default function Privacy() {
             Privacy Policy for Express Web Designs
           </h1>
           <p className="text-xl font-medium text-gray-600 mb-8 text-left">
-            Effective Date: [Insert Date]
+            Effective Date: 2024
           </p>
           <div className="text-left">
             <p className="text-lg font-medium text-gray-700 mb-6">
