@@ -19,7 +19,7 @@ export default function About() {
                 building various types of websites across a wide range of
                 industries. With a passion for creating engaging and
                 user-friendly digital experiences, we strive to deliver
-                exceptional results for our clients.
+                exceptional results for our clients and making each and every one feel as if they are our top priority. Something we hear often is that customer service is difficult to find in 2024, which is why we never forget that we work for the customer, and if you aren't happy, neither are we. 
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function About() {
                 Things We Do Differently
               </h2>
               <p className="mt-4 max-w-3xl ml-auto text-xl text-gray-600">
-                At our company, we prioritize open and transparent communication
+                At Express, we prioritize open and transparent communication
                 with our clients, ensuring that we understand their unique needs
                 and goals. We focus on delivering high-quality, custom solutions
                 that are tailored to each client&apos;s specific requirements.

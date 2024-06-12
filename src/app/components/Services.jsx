@@ -13,7 +13,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-amber-500 p-6 rounded-lg shadow-md h-64 sm:h-72 lg:h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative underline">
                   Website Design
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
@@ -24,7 +24,7 @@ export default function Services() {
                 </p>
                 <Link
                   href="/webDesign"
-                  className="absolute bottom-4 right-4 bg-white text-[#255036] px-4 py-2 rounded-md font-bold hover:bg-[#255036] hover:text-white transition duration-300 ease-in-out text-sm"
+                  className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
                 </Link>
@@ -35,7 +35,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-cyan-500 p-6 rounded-lg shadow-md h-64 sm:h-72 lg:h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative underline">
                   Web Hosting & Maintenance
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
@@ -46,7 +46,7 @@ export default function Services() {
                 </p>
                 <Link
                   href="/webHosting"
-                  className="absolute bottom-4 right-4 bg-white text-[#255036] px-4 py-2 rounded-md font-bold hover:bg-[#255036] hover:text-white transition duration-300 ease-in-out text-sm"
+                  className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
                 </Link>
@@ -57,7 +57,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-pink-500 p-6 rounded-lg shadow-md h-64 sm:h-72 lg:h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative underline">
                   Search Engine Optimization
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-12">
@@ -69,7 +69,7 @@ export default function Services() {
                 </p>
                 <Link
                   href="/seo"
-                  className="absolute bottom-4 right-4 bg-white text-[#255036] px-4 py-2 rounded-md font-bold hover:bg-[#255036] hover:text-white transition duration-300 ease-in-out text-sm"
+                  className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
                 </Link>
@@ -80,7 +80,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-lime-500 p-6 rounded-lg shadow-md h-64 sm:h-72 lg:h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative underline">
                   Website Copywriting
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
@@ -90,7 +90,7 @@ export default function Services() {
                 </p>
                 <Link
                   href="/website-copywriting"
-                  className="absolute bottom-4 right-4 bg-white text-[#255036] px-4 py-2 rounded-md font-bold hover:bg-[#255036] hover:text-white transition duration-300 ease-in-out text-sm"
+                  className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
                 </Link>
@@ -101,7 +101,7 @@ export default function Services() {
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
               <div className="bg-red-500 p-6 rounded-lg shadow-md h-64 sm:h-72 lg:h-80 text-left relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1s_ease-in-out_1]"></div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 text-shadow relative underline">
                   Website Consultancy
                 </h3>
                 <p className="text-base sm:text-lg font-medium text-white text-shadow relative mb-10">
@@ -112,7 +112,7 @@ export default function Services() {
                 </p>
                 <Link
                   href="/website-consultancy"
-                  className="absolute bottom-4 right-4 bg-white text-[#255036] px-4 py-2 rounded-md font-bold hover:bg-[#255036] hover:text-white transition duration-300 ease-in-out text-sm"
+                  className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
                 </Link>
