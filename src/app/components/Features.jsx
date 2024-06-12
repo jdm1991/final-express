@@ -42,7 +42,7 @@ export default function Features() {
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
-          Features
+          Features:
         </h2>
         <div className="flex justify-center items-start space-x-6">
           {features.map((feature, index) => (

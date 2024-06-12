@@ -13,7 +13,7 @@ export default function HeroSection() {
 
     const typingIntervalId = setInterval(() => {
       setTypingAnimation((prevAnimation) => !prevAnimation);
-    }, 20000);
+    }, 10000); // Changed from 20000 to 10000
 
     return () => {
       clearInterval(backgroundIntervalId);
