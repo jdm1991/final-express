@@ -255,7 +255,7 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                {`"The website Jack created for me took my business to the next level. It was elegant, yet simple and efficient, and I couldn't be more grateful."`}
+                {`"The website Jack created for me took my business to the next level. It was elegant, yet simple and efficient, and I couldn&apos;t be more grateful."`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                 - Liam Hermond, T.L Diesel Services
