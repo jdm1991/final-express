@@ -39,20 +39,24 @@ export default function WebsiteDesign() {
                       Basic Website Package
                     </h2>
                     <p className="text-base mb-4">
-                      Our basic package includes a modern, responsive design.
+                      Our basic website package includes a modern, responsive
+                      design comprising of the following:
                     </p>
                     <ul className="list-disc pl-6 mb-4 text-sm md:text-base">
-                      <li>5 pages</li>
-                      <li>Contact form</li>
-                      <li>Basic SEO</li>
+                      <li>Up to 5 pages</li>
+                      <li>An interactive contact form</li>
+                      <li>Basic SEO optimisation</li>
                     </ul>
                     <p className="text-base mb-2">
-                      <span className="font-bold">Built with:</span> HTML, CSS,
-                      JavaScript
+                      <span className="font-bold">
+                        Website can be built with:
+                      </span>{" "}
+                      A combination of HTML, CSS & JavaScript. Alternatively, we
+                      can also construct this with WordPress.
                     </p>
                     <p className="text-base">
-                      <span className="font-bold">Estimated price:</span> $1,000
-                      - $1,500
+                      <span className="font-bold">Estimated price:</span> £1,000
+                      - £1,500
                     </p>
                   </div>
                 </div>
@@ -62,14 +66,13 @@ export default function WebsiteDesign() {
                       Includes:
                     </h3>
                     <ul className="list-disc pl-6 text-sm md:text-base">
-                      <li>Custom design</li>
+                      <li>Custom & bespoke design</li>
                       <li>Mobile-friendly</li>
-                      <li>Content management</li>
-                      <li>Free domain (1 year)</li>
+                      <li>Free domain & SSL for 1 year</li>
                     </ul>
                   </div>
                   <div className="p-6 sm:p-8">
-                    <button className="bg-amber-500 text-white font-bold py-2 px-4 rounded hover:bg-amber-600 transition duration-300">
+                    <button className="bg-[#255036] text-white font-bold py-2 px-4 rounded hover:bg-amber-500 transition duration-300">
                       Get Started
                     </button>
                   </div>
@@ -89,7 +92,7 @@ export default function WebsiteDesign() {
                 results!"`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
-                - John Doe, CEO of ABC Company
+                - Aline Juillet, Owner of Wild Beauty
               </p>
             </div>
           </div>
@@ -112,7 +115,7 @@ export default function WebsiteDesign() {
                 significantly!"`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
-                - Jane Smith, Founder of XYZ Store
+                - Ellie C, Founder of Sapphire Lash
               </p>
             </div>
             <div

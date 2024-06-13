@@ -7,6 +7,7 @@ import Process from "./components/Process.jsx";
 import BlogPostTiles from "./components/BlogPostTiles";
 import Technologies from "./components/Technologies.jsx";
 import GetInTouch from "./components/GetInTouch.jsx";
+import SmallPortfolio from "./components/SmallPortfolio.jsx"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BuildaWebsite />
       <Process />
       <Services />
+      <SmallPortfolio />
       <Technologies />
       <BlogPostTiles />
       <GetInTouch />
