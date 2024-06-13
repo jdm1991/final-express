@@ -43,9 +43,9 @@ export default function WebsiteDesign() {
             >
               <div className="md:flex h-full">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-8 text-white">
+                  <div className="p-6 sm:p-6 sm:pt-4 text-white">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
-                      Personal & Small Business Websites
+                      Small Business & Personal Websites
                     </h2>
                     <p className="text-base mb-4">
                       All of our sites start at the same point, they have
@@ -119,12 +119,12 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                {`"Express Web helped me create a beautiful website for my
-                business. Their team was professional and delivered exceptional
-                results!"`}
+                {`"The team at Express Web Designs is top-notch. They helped
+                me create a professional online store that boosted my sales
+                significantly."`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
-                - John Doe, CEO of ABC Company
+                - Ellie C, Founder of Sapphire Lash
               </p>
             </div>
             <div
@@ -136,28 +136,30 @@ export default function WebsiteDesign() {
             >
               <div className="md:flex h-full">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-8 text-white">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+                  <div className="p-6 sm:p-6 sm:pt-4 text-white">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
                       E-Commerce Websites
                     </h2>
-                    <p className="text-base mb-4">
+                    <p className="text-sm sm:text-base mb-2">
                       Whether you're looking for a large e-commerce solution for
-                      your business, or a small e-commerce platform for your
-                      side hustle, our small team of developers is perfectly
-                      placed to bring your vision to life.
+                      your business, or a small platform for your side hustle,
+                      we are perfectly placed to bring your vision to life. All
+                      of our sites include the following:
                     </p>
-                    <ul className="list-disc pl-6 mb-4 text-sm md:text-base">
-                      <li>5 pages</li>
-                      <li>Contact form</li>
-                      <li>Basic SEO</li>
+                    <ul className="list-disc pl-6 mb-4 text-xs sm:text-sm md:text-base">
+                      <li>Product catalog</li>
+                      <li>Shopping cart</li>
+                      <li>Payment gateway integration</li>
+                      <li>Inventory management</li>
                     </ul>
-                    <p className="text-base mb-2">
+                    <p className="text-sm sm:text-base mb-2">
                       <span className="font-bold">
                         Website can be built with:
                       </span>{" "}
-                      Woocommerce, or a combination of HTML, CSS & JavaScript.
+                      Woocommerce, Shopify or a custom combination of HTML, CSS
+                      & JavaScript.
                     </p>
-                    <p className="text-base">
+                    <p className="text-sm sm:text-base">
                       <span className="font-bold">Estimated price:</span> £2,500
                       - £4,000
                     </p>
@@ -168,15 +170,15 @@ export default function WebsiteDesign() {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">
                       Includes:
                     </h3>
-                    <ul className="list-disc pl-6 text-sm md:text-base">
+                    <ul className="list-disc pl-6 text-xs sm:text-sm md:text-base">
                       <li>Custom design</li>
                       <li>Mobile-friendly</li>
-                      <li>Content management</li>
-                      <li>Free domain (1 year)</li>
+                      <li>CMS included</li>
+                      <li>Free domain & SSL for 1 year</li>
                     </ul>
                   </div>
                   <div className="p-6 sm:p-8">
-                    <button className="bg-amber-500 text-white font-bold py-2 px-4 rounded hover:bg-amber-600 transition duration-300">
+                    <button className="bg-[#255036] text-white font-bold py-2 px-4 rounded hover:bg-amber-500 transition duration-300">
                       Get Started
                     </button>
                   </div>
@@ -198,28 +200,31 @@ export default function WebsiteDesign() {
             >
               <div className="md:flex h-full">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-8 text-white">
+                  <div className="p-6 sm:p-6 sm:pt-2 text-white">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
-                      E-commerce Website Package
+                      Medium to Large Business Websites
                     </h2>
                     <p className="text-base mb-4">
-                      Our e-commerce package includes a fully functional online
-                      store with secure payment integration and inventory
-                      management.
+                      Not a small business or an E-Commerce operation? No
+                      problem. We have designed and built websites for
+                      businesses of all different sizes in different fields.
                     </p>
                     <ul className="list-disc pl-6 mb-4 text-sm md:text-base">
-                      <li>Product catalog</li>
-                      <li>Shopping cart</li>
-                      <li>Payment gateway integration</li>
-                      <li>Inventory management</li>
+                      <li>An average of 20 pages</li>
+                      <li>Administration/Login functionality</li>
+                      <li>Basic SEO optimisation</li>
+                      <li>Contact functionality</li>
                     </ul>
                     <p className="text-base mb-2">
-                      <span className="font-bold">Built with:</span> Shopify,
-                      WooCommerce
+                      <span className="font-bold">
+                        Website can be built with:
+                      </span>{" "}
+                      A combination of HTML, CSS & JavaScript. Alternatively, we
+                      can also construct this with WordPress.
                     </p>
                     <p className="text-base">
-                      <span className="font-bold">Estimated price:</span> $2,500
-                      - $4,000
+                      <span className="font-bold">Estimated price:</span> £2,500
+                      - £4,000
                     </p>
                   </div>
                 </div>
@@ -231,12 +236,11 @@ export default function WebsiteDesign() {
                     <ul className="list-disc pl-6 text-sm md:text-base">
                       <li>Custom design</li>
                       <li>Mobile-friendly</li>
-                      <li>SSL certificate</li>
-                      <li>Product import/export</li>
+                      <li>Free domain & SSL certificate for one year</li>
                     </ul>
                   </div>
                   <div className="p-6 sm:p-8">
-                    <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                    <button className="bg-[#255036] text-white font-bold py-2 px-4 rounded hover:bg-amber-500 transition duration-300">
                       Get Started
                     </button>
                   </div>
@@ -251,12 +255,10 @@ export default function WebsiteDesign() {
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                {`"Express Web's e-commerce package is top-notch. They helped
-                me create a professional online store that boosted my sales
-                significantly."`}
+                {`"The website Jack created for me took my business to the next level. It was elegant, yet simple and efficient, and I couldn't be more grateful."`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
-                - Ellie C, Founder of Sapphire Lash
+                - Liam Hermond, T.L Diesel Services
               </p>
             </div>
           </div>

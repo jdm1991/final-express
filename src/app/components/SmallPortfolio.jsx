@@ -4,7 +4,7 @@ export default function Portfolio() {
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
-          Our Portfolio
+          Our Portfolio:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Portfolio Tile 1 */}
