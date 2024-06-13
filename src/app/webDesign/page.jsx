@@ -141,10 +141,10 @@ export default function WebsiteDesign() {
                       E-Commerce Websites
                     </h2>
                     <p className="text-sm sm:text-base mb-2">
-                      Whether you're looking for a large e-commerce solution for
-                      your business, or a small platform for your side hustle,
-                      we are perfectly placed to bring your vision to life. All
-                      of our sites include the following:
+                      Whether you&apos;re looking for a large e-commerce
+                      solution for your business, or a small platform for your
+                      side hustle, we are perfectly placed to bring your vision
+                      to life. All of our sites include the following:
                     </p>
                     <ul className="list-disc pl-6 mb-4 text-xs sm:text-sm md:text-base">
                       <li>Product catalog</li>
