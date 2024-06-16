@@ -104,6 +104,7 @@ export default function Header() {
         className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-[#255036] bg-opacity-90 z-50 transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
+        style={{ maxWidth: "100vw" }}
       >
         <div className="flex justify-end p-4">
           <button
