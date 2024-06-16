@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 import { BsDoorOpen } from "react-icons/bs";
 import Image from "next/image";
 import "../styles/globals.css";
@@ -82,18 +82,14 @@ export default function Header() {
               </Link>
             </div>
           </div>
-          <div className="flex lg:hidden">
+          <div className="-mr-2 flex items-center lg:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-[#ffcf40] focus:outline-none"
               onClick={toggleMenu}
             >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? (
-                <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-              ) : (
-                <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-              )}
+              <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
             </button>
           </div>
         </div>
@@ -101,20 +97,10 @@ export default function Header() {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-[#255036] bg-opacity-90 z-50 transform transition-transform duration-300 ease-in-out ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
-        style={{ maxWidth: "100vw" }}
+        className={`lg:hidden ${
+          isOpen ? "block" : "hidden"
+        } bg-[#255036] bg-opacity-90 z-50`}
       >
-        <div className="flex justify-end p-4">
-          <button
-            type="button"
-            className="text-white hover:text-[#ffcf40] focus:outline-none"
-            onClick={toggleMenu}
-          >
-            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-          </button>
-        </div>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             href="/"
