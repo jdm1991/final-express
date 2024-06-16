@@ -8,6 +8,15 @@
   --font-titillium-web: 'Titillium Web', sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
