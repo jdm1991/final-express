@@ -16,6 +16,15 @@ const config: Config = {
       fontFamily: {
         titilliumWeb: ["var(--font-titillium-web)", "sans-serif"],
       },
+      animation: {
+        "fade-in-right": "fadeInRight 0.6s ease-in-out",
+      },
+      keyframes: {
+        fadeInRight: {
+          "0%": { opacity: 0, transform: "translateX(20px)" },
+          "100%": { opacity: 1, transform: "translateX(0)" },
+        },
+      },
     },
   },
   plugins: [],

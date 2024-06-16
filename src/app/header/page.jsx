@@ -98,8 +98,8 @@ export default function Header() {
       {/* Mobile menu */}
       <div
         className={`lg:hidden ${
-          isOpen ? "block" : "hidden"
-        } bg-[#255036] bg-opacity-90 absolute top-16 left-0 right-0`}
+          isOpen ? "block animate-fade-in-right" : "hidden"
+        } bg-[#255036] bg-opacity-90 fixed top-16 right-0 w-64`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
