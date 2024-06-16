@@ -82,7 +82,7 @@ export default function Header() {
               </Link>
             </div>
           </div>
-          <div className="lg:hidden">
+          <div className="flex items-center lg:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-[#ffcf40] focus:outline-none"
@@ -99,7 +99,7 @@ export default function Header() {
       <div
         className={`lg:hidden ${
           isOpen ? "block" : "hidden"
-        } bg-[#255036] bg-opacity-90`}
+        } bg-[#255036] bg-opacity-90 absolute top-16 left-0 right-0`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
