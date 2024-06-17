@@ -13,7 +13,7 @@ export default function HeroSection() {
 
     const typingIntervalId = setInterval(() => {
       setTypingAnimation((prevAnimation) => !prevAnimation);
-    }, 10000); // Changed from 20000 to 10000
+    }, 10000);
 
     return () => {
       clearInterval(backgroundIntervalId);
@@ -23,8 +23,8 @@ export default function HeroSection() {
 
   return (
     <div className="relative min-h-screen">
-      <div className="absolute inset-0 flex items-center justify-center z-10">
-        <div className="text-center text-white px-4 sm:px-6 lg:px-8">
+      <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
+        <div className="text-center text-white max-w-full">
           <h1
             className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 ${
               typingAnimation ? "typing" : ""
