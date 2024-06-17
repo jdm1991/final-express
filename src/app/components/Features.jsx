@@ -41,30 +41,23 @@ export default function Features() {
   return (
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-center sm:text-left">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#255036] mb-8 lg:mb-10 text-left">
           Features:
         </h2>
-        <div className="flex flex-col sm:flex-row justify-center items-center space-y-10 sm:space-y-0 sm:space-x-6 lg:space-x-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
           {features.map((feature, index) => (
-            <>
-              <div
-                key={index}
-                className="flex flex-col items-center space-y-2 hover:scale-110 transition-all duration-300"
-              >
-                <feature.icon className="text-4xl text-current" />
-                <p className="text-xl text-black whitespace-nowrap">
-                  {feature.title}
-                </p>
-                <p className="text-xs text-gray-600 text-center max-w-xs mt-1">
-                  {feature.description}
-                </p>
-              </div>
-              {index !== features.length - 1 && (
-                <div className="text-3xl text-yellow-400 hidden sm:flex items-center">
-                  -
-                </div>
-              )}
-            </>
+            <div
+              key={index}
+              className="flex flex-col items-center space-y-2 hover:scale-105 transition-all duration-300"
+            >
+              <feature.icon className="text-3xl lg:text-4xl text-current" />
+              <p className="text-lg lg:text-xl text-black whitespace-nowrap text-center">
+                {feature.title}
+              </p>
+              <p className="text-sm text-gray-600 text-center max-w-xs mt-1">
+                {feature.description}
+              </p>
+            </div>
           ))}
         </div>
       </div>
