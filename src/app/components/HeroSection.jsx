@@ -26,17 +26,17 @@ export default function HeroSection() {
       <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
         <div className="text-center text-white max-w-full">
           <h1
-            className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 ${
+            className={`text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 ${
               typingAnimation ? "typing" : ""
             }`}
           >
             Welcome to Our Web Design Studio
           </h1>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-8">
+          <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl mb-8">
             We create stunning and functional websites that bring your vision to
             life.
           </p>
-          <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105">
+          <button className="bg-yellow-400 text-black px-3 xs:px-4 sm:px-6 py-1 xs:py-2 sm:py-3 rounded-full text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105">
             Get Started
           </button>
         </div>
