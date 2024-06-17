@@ -8,7 +8,7 @@ export default function WebsiteDesign() {
   return (
     <div>
       <section
-        className="bg-gray-100 pt-16 md:pt-20 lg:pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
+        className="bg-gray-100 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/websiteDesignPic.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -30,20 +30,20 @@ export default function WebsiteDesign() {
 
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#255036] mb-8 sm:mb-10 text-left">
             Types of Websites We Design:
           </h2>
           <div className="flex flex-col md:flex-row gap-8">
             <div
-              className="md:w-3/4 bg-amber-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]"
+              className="md:w-3/4 bg-amber-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02]"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
               }}
             >
-              <div className="md:flex h-full">
+              <div className="md:flex">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-6 sm:pt-4 text-white">
+                  <div className="p-6 sm:p-8 sm:pt-6 text-white">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
                       Small Business & Personal Websites
                     </h2>
@@ -89,7 +89,7 @@ export default function WebsiteDesign() {
               </div>
             </div>
             <div
-              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8 h-[350px]"
+              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
@@ -112,7 +112,7 @@ export default function WebsiteDesign() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div
-              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8 h-[350px]"
+              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
@@ -128,15 +128,15 @@ export default function WebsiteDesign() {
               </p>
             </div>
             <div
-              className="md:w-3/4 bg-pink-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]"
+              className="md:w-3/4 bg-pink-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02]"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
               }}
             >
-              <div className="md:flex h-full">
+              <div className="md:flex">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-6 sm:pt-4 text-white">
+                  <div className="p-6 sm:p-8 sm:pt-6 text-white">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
                       E-Commerce Websites
                     </h2>
@@ -192,15 +192,15 @@ export default function WebsiteDesign() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div
-              className="md:w-3/4 bg-blue-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02] h-[350px]"
+              className="md:w-3/4 bg-blue-500 rounded-lg overflow-hidden border border-black transition-transform duration-300 hover:scale-[1.02]"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
               }}
             >
-              <div className="md:flex h-full">
+              <div className="md:flex">
                 <div className="md:flex-1">
-                  <div className="p-6 sm:p-6 sm:pt-2 text-white">
+                  <div className="p-6 sm:p-8 sm:pt-6 text-white">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
                       Medium to Large Business Websites
                     </h2>
@@ -248,14 +248,14 @@ export default function WebsiteDesign() {
               </div>
             </div>
             <div
-              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8 h-[350px]"
+              className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
                   "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
-                {`"The website Jack created for me took my business to the next level. It was elegant, yet simple and efficient, and I couldn&apos;t be more grateful."`}
+                {`"The website Jack created for me took my business to the next level. It was elegant, yet simple and efficient, and I couldn't be more grateful."`}
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                 - Liam Hermond, T.L Diesel Services
