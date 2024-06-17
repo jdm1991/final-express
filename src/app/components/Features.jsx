@@ -40,11 +40,11 @@ export default function Features() {
 
   return (
     <section className="bg-white py-12">
-      <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-left">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#255036] mb-10 text-center sm:text-left">
           Features:
         </h2>
-        <div className="flex justify-center items-start space-x-6">
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-10 sm:space-y-0 sm:space-x-6 lg:space-x-10">
           {features.map((feature, index) => (
             <>
               <div
@@ -60,7 +60,7 @@ export default function Features() {
                 </p>
               </div>
               {index !== features.length - 1 && (
-                <div className="text-3xl text-yellow-400 flex items-center">
+                <div className="text-3xl text-yellow-400 hidden sm:flex items-center">
                   -
                 </div>
               )}
