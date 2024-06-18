@@ -8,14 +8,14 @@ export default function WebHosting() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-black">
           Web Hosting & Maintenance
         </h1>
-        <p className="text-lg sm:text-xl text-gray-600 mb-12 sm:mb-16 lg:mb-20">
+        <p className="text-lg sm:text-xl text-gray-600 mb-12 sm:mb-16">
           Your website is a crucial component of your online presence. Regular
           maintenance ensures that it remains secure, performs optimally, and
           stays compatible with the latest web technologies.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-            <div className="bg-amber-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+            <div className="bg-amber-500 text-white p-6 rounded-lg h-auto sm:h-32 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
               <h3 className="text-xl font-semibold mb-2 relative">
                 Security Updates
@@ -27,7 +27,7 @@ export default function WebHosting() {
             </div>
           </div>
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-            <div className="bg-lime-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+            <div className="bg-lime-500 text-white p-6 rounded-lg h-auto sm:h-32 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
               <h3 className="text-xl font-semibold mb-2 relative">
                 Performance Optimization
@@ -39,7 +39,7 @@ export default function WebHosting() {
             </div>
           </div>
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-            <div className="bg-cyan-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+            <div className="bg-cyan-500 text-white p-6 rounded-lg h-auto sm:h-32 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
               <h3 className="text-xl font-semibold mb-2 relative">
                 Compatibility Updates
@@ -51,7 +51,7 @@ export default function WebHosting() {
             </div>
           </div>
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
-            <div className="bg-pink-500 text-white p-6 rounded-lg h-28 sm:h-32 relative overflow-hidden">
+            <div className="bg-pink-500 text-white p-6 rounded-lg h-auto sm:h-32 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
               <h3 className="text-xl font-semibold mb-2 relative">
                 Backup and Recovery
@@ -72,4 +72,3 @@ export default function WebHosting() {
     </div>
   );
 }
-
