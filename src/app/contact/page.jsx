@@ -2,9 +2,9 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row md:h-screen">
+    <div className="min-h-screen flex flex-col md:flex-row">
       {/* Left Section */}
-      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative md:h-full">
+      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative">
         {/* Blurred black gradient background */}
         <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-black to-black blur-xl opacity-10"></div>
 
@@ -34,13 +34,13 @@ export default function ContactPage() {
 
       {/* Right Section */}
       <div
-        className="w-full md:w-1/2 bg-cover bg-center md:h-full"
+        className="w-full md:w-1/2 bg-cover bg-center"
         style={{
           backgroundImage: "url('/tablet.jpeg')",
         }}
       >
-        <div className="p-8 md:p-12 flex flex-col justify-center h-full">
-          <div className="mt-8 md:mt-12 bg-white/80 p-5 rounded-lg max-h-[80vh]">
+        <div className="p-8 md:p-12 flex flex-col justify-center">
+          <div className="mt-8 md:mt-12 bg-white/80 p-5 rounded-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Let&apos;s talk about your project
             </h2>
