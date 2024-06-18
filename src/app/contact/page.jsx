@@ -2,7 +2,7 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="min-h-screen flex flex-col md:flex-row pt-16 md:pt-0">
       {/* Left Section */}
       <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative">
         {/* Blurred black gradient background */}
@@ -39,8 +39,8 @@ export default function ContactPage() {
           backgroundImage: "url('/tablet.jpeg')",
         }}
       >
-        <div className="p-8 md:p-12 flex flex-col justify-center">
-          <div className="mt-8 md:mt-12 bg-white/80 p-5 rounded-lg">
+        <div className="p-8 md:p-16 flex flex-col justify-center h-full">
+          <div className="mt-8 md:mt-0 bg-white/80 p-5 rounded-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Let&apos;s talk about your project
             </h2>
@@ -98,13 +98,15 @@ export default function ContactPage() {
                   required
                 ></textarea>
               </div>
-              <button
-                type="submit"
-                className="flex items-center justify-center bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-[#ffcf40] hover:text-black transition duration-300 hover:scale-105"
-              >
-                <span>Send Message</span>
-                <span className="ml-2">→</span>
-              </button>
+              <div className="flex justify-center">
+                <button
+                  type="submit"
+                  className="flex items-center justify-center bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-[#ffcf40] hover:text-black transition duration-300 hover:scale-105"
+                >
+                  <span>Send Message</span>
+                  <span className="ml-2">→</span>
+                </button>
+              </div>
             </form>
           </div>
         </div>
