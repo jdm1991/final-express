@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "../styles/globals.css";
 import GetInTouch from "../components/GetInTouch";
+import SeoFaqs from "../components/SeoFaqs"
 
 export default function SEO() {
   return (
@@ -82,6 +83,7 @@ export default function SEO() {
           </div>
         </div>
       </div>
+      <SeoFaqs />
       <GetInTouch />
     </div>
   );

@@ -3,6 +3,7 @@ import Process from "../components/Process";
 import Features from "../components/Features";
 import SmallPortfolio from "../components/SmallPortfolio";
 import GetInTouch from "../components/GetInTouch";
+import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs"
 
 export default function WebsiteDesign() {
   return (
@@ -267,6 +268,7 @@ export default function WebsiteDesign() {
       <SmallPortfolio />
       <Process />
       <Features />
+<WebsiteDesignFaqs />
       <GetInTouch />
     </div>
   );
