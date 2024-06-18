@@ -4,7 +4,7 @@ export default function Privacy() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#255036] mb-6 sm:mb-8 lg:mb-10 text-left">
-            Privacy Policy for Express Web Designs
+            Privacy Policy:
           </h1>
           <p className="text-lg sm:text-xl font-medium text-gray-600 mb-6 sm:mb-8 text-left">
             Effective Date: 2024
