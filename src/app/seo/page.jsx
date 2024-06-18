@@ -9,13 +9,13 @@ import GetInTouch from "../components/GetInTouch";
 export default function SEO() {
   return (
     <div className="bg-white text-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
-        <div className="py-12">
-          <h1 className="text-6xl font-bold mb-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-24">
+        <div className="py-8 sm:py-12">
+          <h1 className="text-4xl sm:text-6xl font-bold mb-8">
             SEO (Search Engine Optimization)
           </h1>
           <div className="mb-8">
-            <h2 className="text-4xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               What is SEO and do I need it?
             </h2>
             <p className={`text-lg mb-4`}>
@@ -32,8 +32,8 @@ export default function SEO() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-              <div className="bg-amber-500 p-8 rounded-lg shadow-md h-60 text-left">
-                <h3 className="text-3xl font-bold text-white mb-4 text-shadow">
+              <div className="bg-amber-500 p-8 rounded-lg shadow-md h-auto sm:h-60 text-left">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 text-shadow">
                   Trump your competitors
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
@@ -44,8 +44,8 @@ export default function SEO() {
               </div>
             </div>
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-              <div className="bg-lime-500 p-8 rounded-lg shadow-md h-60 text-left">
-                <h3 className="text-3xl font-bold text-white mb-4 text-shadow">
+              <div className="bg-lime-500 p-8 rounded-lg shadow-md h-auto sm:h-60 text-left">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 text-shadow">
                   Don&apos;t pay for Ads
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
@@ -56,8 +56,8 @@ export default function SEO() {
               </div>
             </div>
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-              <div className="bg-cyan-500 p-8 rounded-lg shadow-md h-60 text-left">
-                <h3 className="text-3xl font-bold text-white mb-4 text-shadow">
+              <div className="bg-cyan-500 p-8 rounded-lg shadow-md h-auto sm:h-60 text-left">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 text-shadow">
                   24/7 marketing
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
@@ -68,8 +68,8 @@ export default function SEO() {
               </div>
             </div>
             <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-              <div className="bg-red-500 p-8 rounded-lg shadow-md h-60 text-left">
-                <h3 className="text-3xl font-bold text-white mb-4 text-shadow">
+              <div className="bg-red-500 p-8 rounded-lg shadow-md h-auto sm:h-60 text-left">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 text-shadow">
                   The right first impression
                 </h3>
                 <p className="text-lg font-medium text-white text-shadow">
