@@ -1,4 +1,3 @@
-// WebsiteDesign.js
 import Process from "../components/Process";
 import Features from "../components/Features";
 import SmallPortfolio from "../components/SmallPortfolio";
@@ -9,15 +8,15 @@ export default function WebsiteDesign() {
   return (
     <div>
       <section
-        className="bg-gray-100 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
+        className="bg-gray-100 pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/websiteDesignPic.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8 sm:pt-12 md:pt-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
             Website Design
           </h1>
-          <p className="text-lg mb-8 text-white">
+          <p className="text-lg mb-6 text-white">
             At Express Web, we create stunning and functional websites tailored
             to meet the diverse needs of our clients, from small businesses
             establishing an online presence to large enterprises seeking

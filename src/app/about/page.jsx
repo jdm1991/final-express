@@ -2,19 +2,19 @@ export default function About() {
   return (
     <>
       <main>
-        <section className="about-intro py-20 sm:py-28 lg:py-36 text-white relative">
+        <section className="about-intro pt-24 pb-8 sm:pb-12 md:pb-16 text-white relative">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Norfolk2.jpeg')`,
             }}
           ></div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
             <div className="text-left">
-              <h1 className="text-4xl font-extrabold sm:text-5xl lg:text-6xl">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
                 About Us
               </h1>
-              <p className="mt-4 max-w-3xl text-xl">
+              <p className="mt-4 max-w-3xl text-lg mb-6">
                 We are a small team of web developers and designers who enjoy
                 building various types of websites across a wide range of
                 industries. With a passion for creating engaging and
