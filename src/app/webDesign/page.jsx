@@ -3,7 +3,7 @@ import Process from "../components/Process";
 import Features from "../components/Features";
 import SmallPortfolio from "../components/SmallPortfolio";
 import GetInTouch from "../components/GetInTouch";
-import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs"
+import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs";
 
 export default function WebsiteDesign() {
   return (
@@ -93,7 +93,7 @@ export default function WebsiteDesign() {
               className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
-                  "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
+                  "0 4px 6px rgba(37, 80, 54, 0.4), 0 1px 3px rgba(37, 80, 54, 0.3)",
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
@@ -106,6 +106,10 @@ export default function WebsiteDesign() {
               </p>
             </div>
           </div>
+          <p className="text-sm text-gray-500 mt-4 italic">
+            Pricing is only an estimate based on the criteria above, subject to
+            change. Contact us for a quote.
+          </p>
         </div>
       </section>
 
@@ -116,7 +120,7 @@ export default function WebsiteDesign() {
               className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
-                  "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
+                  "0 4px 6px rgba(37, 80, 54, 0.4), 0 1px 3px rgba(37, 80, 54, 0.3)",
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
@@ -187,8 +191,13 @@ export default function WebsiteDesign() {
               </div>
             </div>
           </div>
+          <p className="text-sm text-gray-500 mt-4 italic">
+            Pricing is only an estimate based on the criteria above, subject to
+            change. Contact us for a quote.
+          </p>
         </div>
       </section>
+
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-8">
@@ -252,7 +261,7 @@ export default function WebsiteDesign() {
               className="md:w-1/4 bg-white rounded-lg p-6 sm:p-8"
               style={{
                 boxShadow:
-                  "0 4px 6px rgba(37, 80, 54, 0.1), 0 1px 3px rgba(37, 80, 54, 0.08)",
+                  "0 4px 6px rgba(37, 80, 54, 0.4), 0 1px 3px rgba(37, 80, 54, 0.3)",
               }}
             >
               <p className="text-base sm:text-lg md:text-xl italic text-gray-700 mb-4">
@@ -263,12 +272,17 @@ export default function WebsiteDesign() {
               </p>
             </div>
           </div>
+          <p className="text-sm text-gray-500 mt-4 italic">
+            Pricing is only an estimate based on the criteria above, subject to
+            change. Contact us for a quote.
+          </p>
         </div>
       </section>
+
       <SmallPortfolio />
       <Process />
       <Features />
-<WebsiteDesignFaqs />
+      <WebsiteDesignFaqs />
       <GetInTouch />
     </div>
   );
