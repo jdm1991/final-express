@@ -2,13 +2,13 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row pt-16 md:pt-0">
+    <div className="min-h-screen flex flex-col md:flex-row">
       {/* Left Section */}
-      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative">
+      <div className="w-full md:w-1/2 bg-[#255036] p-8 md:p-16 flex flex-col justify-center items-center relative md:pt-0 pt-16">
         {/* Blurred black gradient background */}
         <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-black to-black blur-xl opacity-10"></div>
 
-        <div className="relative z-10 bg-white p-8 md:p-12 rounded-lg text-black border border-black/10 shadow-[0_0_0_10px_rgba(0,0,0,0.1)]">
+        <div className="relative z-10 bg-white p-8 md:p-12 rounded-lg text-black border border-black/10 shadow-[0_0_0_10px_rgba(0,0,0,0.1)] mt-8 md:mt-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-black">
             Contact Us
           </h2>
@@ -40,11 +40,12 @@ export default function ContactPage() {
         }}
       >
         <div className="p-8 md:p-16 flex flex-col justify-center h-full">
-          <div className="mt-8 md:mt-0 bg-white/80 p-5 rounded-lg">
+          <div className="mt-8 md:mt-16 bg-white/80 p-5 rounded-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Let&apos;s talk about your project
             </h2>
             <form>
+              {/* Form fields */}
               <div className="mb-3">
                 <label htmlFor="name" className="block text-xs md:text-sm mb-1">
                   Name
