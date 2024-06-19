@@ -1,5 +1,6 @@
 import GetInTouch from "../components/GetInTouch";
 import WebHostingTable from "../components/webHostingTable";
+import HostingFaqs from "../components/HostingFaqs"
 
 export default function WebHosting() {
   return (
@@ -67,6 +68,7 @@ export default function WebHosting() {
           What&apos;s Included?
         </h2>
         <WebHostingTable />
+        <HostingFaqs />
       </div>
       <GetInTouch />
     </div>
