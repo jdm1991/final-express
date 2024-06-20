@@ -7,7 +7,6 @@ import "../styles/globals.css";
 import GetInTouch from "../components/GetInTouch";
 import SeoFaqs from "../components/SeoFaqs";
 
-
 export default function SEO() {
   return (
     <div className="bg-white">
@@ -21,10 +20,10 @@ export default function SEO() {
             SEO
           </h1>
           <p className="text-lg mb-6 text-white">
-            SEO stands for "search engine optimisation." In its simplest form,
-            SEO means the process of improving your website to increase its
-            visibility on Google, Microsoft Bing, and other search engines when
-            people search for your products or services.
+            SEO stands for &ldquo;search engine optimisation.&rdquo; In its
+            simplest form, SEO means the process of improving your website to
+            increase its visibility on Google, Microsoft Bing, and other search
+            engines when people search for your products or services.
           </p>
         </div>
       </section>
@@ -34,8 +33,8 @@ export default function SEO() {
         </h2>
         <p className="text-lg mb-6">
           When I work with you to build your website, ongoing SEO is optional,
-          but highly recommended in many cases. Here's why my clients choose to
-          utilise my SEO skills:
+          but highly recommended in many cases. Here&apos;s why my clients
+          choose to utilise my SEO skills:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
@@ -55,7 +54,7 @@ export default function SEO() {
             <div className="bg-lime-500 text-white p-6 rounded-lg h-auto sm:h-40 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
               <h3 className="text-xl font-semibold mb-2 relative">
-                Don't pay for Ads
+                Don&apos;t pay for Ads
               </h3>
               <p className="text-sm relative">
                 Avoid paying through the nose for every single website click!
