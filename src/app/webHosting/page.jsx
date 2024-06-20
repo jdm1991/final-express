@@ -12,7 +12,7 @@ export default function WebHosting() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
-            Web Hosting & Maintenance
+            Web Hosting &amp; Maintenance
           </h1>
           <p className="text-lg mb-6 text-white">
             Your website is a crucial component of your online presence, which
@@ -50,9 +50,9 @@ export default function WebHosting() {
               </h3>
               <p className="text-sm relative">
                 Ensure your website runs smoothly and efficiently for optimal
-                user experience. We will fine-tune your website's performance by
-                implementing caching, minification, and other optimization
-                techniques.
+                user experience. We will fine-tune your website&apos;s
+                performance by implementing caching, minification, and other
+                optimization techniques.
               </p>
             </div>
           </div>
