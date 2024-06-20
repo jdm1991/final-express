@@ -30,7 +30,7 @@ export default function SEO() {
       </section>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6 text-[#255036]">
-          What is SEO and do I need it?
+          What are the benefits of SEO?
         </h2>
         <p className="text-lg mb-6">
           When I work with you to build your website, ongoing SEO is optional,
