@@ -7,7 +7,7 @@ export default function WebHosting() {
     <div className="bg-white">
       <section
         className="bg-gray-100 pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
-        style={{ backgroundImage: "url('/websiteHostingPic.jpeg')" }}
+        style={{ backgroundImage: "url('/websiteHostingpic.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
