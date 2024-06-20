@@ -41,17 +41,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  5GB Storage
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  15GB Storage
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Unlimited Storage
                 </span>
               </td>
             </tr>
@@ -64,17 +64,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Standard SSL
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Advanced SSL
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Premium SSL
                 </span>
               </td>
             </tr>
@@ -115,17 +115,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Quarterly
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Monthly
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  As Available
                 </span>
               </td>
             </tr>
@@ -141,17 +141,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Basic Protection
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Advanced Protection
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Premium Protection
                 </span>
               </td>
             </tr>
@@ -167,17 +167,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Every 30 minutes
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Every 15 minutes
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Every 5 minutes
                 </span>
               </td>
             </tr>
@@ -193,17 +193,17 @@ export default function WebTable() {
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Basic Plugins
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  Advanced Plugins
                 </span>
               </td>
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                  Included
+                  All Premium Plugins
                 </span>
               </td>
             </tr>
@@ -228,6 +228,26 @@ export default function WebTable() {
               <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
                 <div className="text-sm text-gray-500">
                   2-hours (worth £96+VAT)
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
+                <div className="text-sm font-medium text-gray-900">
+                  Priority Support
+                </div>
+              </td>
+              <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
+                <div className="text-sm text-gray-500">Email Support</div>
+              </td>
+              <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
+                <div className="text-sm text-gray-500">
+                  Email & Phone Support
+                </div>
+              </td>
+              <td className="px-3 py-3 sm:px-4 sm:py-4 whitespace-nowrap">
+                <div className="text-sm text-gray-500">
+                  24/7 Priority Support
                 </div>
               </td>
             </tr>

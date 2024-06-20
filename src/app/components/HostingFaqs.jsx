@@ -5,27 +5,47 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 const data = [
   {
     id: 1,
-    question: "What is web hosting?",
+    question: "What is web hosting and why is it important?",
     answer:
-      "Web hosting is a service that allows individuals and organizations to make their websites accessible on the internet. It provides storage space and resources on a server to host website files and data.",
+      "Web hosting is a service that allows your website to be accessible on the internet. It's crucial for your online presence as it ensures your website performs well and is properly maintained. Our hosting solutions are tailored to meet the diverse needs of our customers, providing the necessary support to keep your website running smoothly and effectively.",
   },
   {
     id: 2,
-    question: "Why is website maintenance important?",
+    question: "What's included in your web hosting plans?",
     answer:
-      "Website maintenance is crucial to ensure that your website remains secure, up-to-date, and functioning properly. Regular maintenance tasks include updating software, monitoring performance, fixing bugs, and making necessary improvements.",
+      "All our web hosting plans include essential features to keep your website secure and performing optimally. These include: 1) Regular security updates to protect against vulnerabilities and threats. 2) Performance optimization through caching, minification, and other techniques. 3) Compatibility updates to ensure your site works across different devices and browsers. 4) Regular backups and recovery options to protect your website data.",
   },
   {
     id: 3,
-    question: "What types of web hosting are available?",
+    question: "How do you ensure the security of hosted websites?",
     answer:
-      "There are several types of web hosting, including shared hosting, VPS (Virtual Private Server) hosting, dedicated hosting, and cloud hosting. Each type offers different levels of resources, control, and scalability.",
+      "We take website security seriously. Our team regularly monitors and applies necessary security patches to maintain the integrity of your website. We implement robust measures to protect against vulnerabilities and threats, ensuring your website and its data remain secure.",
   },
   {
     id: 4,
-    question: "How often should I perform website maintenance?",
+    question: "What kind of performance optimization do you offer?",
     answer:
-      "The frequency of website maintenance depends on various factors, such as the size and complexity of your website, the amount of traffic it receives, and the nature of your business. Generally, it's recommended to perform routine maintenance tasks at least once a month.",
+      "We focus on ensuring your website runs smoothly and efficiently for optimal user experience. Our performance optimization includes implementing caching mechanisms, minification of code and resources, and other advanced techniques. These optimizations help improve your website's loading speed and overall performance.",
+  },
+  {
+    id: 5,
+    question: "How do you handle website backups and recovery?",
+    answer:
+      "We understand the importance of your website data. That's why we perform regular backups to protect your information. In case of any issues, we maintain secure backups of your website, allowing for swift restoration if needed. This ensures business continuity and peace of mind.",
+  },
+  {
+    id: 6,
+    question:
+      "Do you offer support for keeping my website up-to-date with the latest web technologies?",
+    answer:
+      "Yes, we provide compatibility updates as part of our hosting service. We ensure that your website remains compatible with the latest web technologies and browser updates. This means your website will stay fully functional and accessible across different devices and browsers, providing a consistent experience for all your visitors.",
+  },
+  {
+    id: 7,
+    question:
+      "What kind of support can I expect with your web hosting services?",
+    answer:
+      "We offer comprehensive support to ensure your website performs optimally. This includes regular monitoring, applying necessary updates, and addressing any issues that may arise. Our goal is to provide you with peace of mind, knowing that your website is in capable hands and will remain an effective tool for your online presence.",
   },
 ];
 
@@ -39,7 +59,7 @@ export default function HostingFaqs() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-12 text-black">
-        Web Hosting & Maintenance FAQs
+        Web Hosting &amp; Maintenance FAQs
       </h1>
       {data.map((faq) => (
         <div

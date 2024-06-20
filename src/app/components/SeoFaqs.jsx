@@ -7,25 +7,43 @@ const data = [
     id: 1,
     question: "What is SEO?",
     answer:
-      "SEO stands for Search Engine Optimization. It is the practice of optimizing a website to improve its visibility and ranking in search engine results pages (SERPs).",
+      "SEO stands for Search Engine Optimization. It's the practice of improving your website to increase its visibility when people search for products or services related to your business on search engines like Google. The goal is to appear higher in search results, making it more likely for users to click on your site.",
   },
   {
     id: 2,
     question: "Why is SEO important?",
     answer:
-      "SEO is important because it helps your website rank higher in search engine results, making it more visible to potential customers. This can lead to increased traffic, brand awareness, and ultimately, more business.",
+      "SEO is crucial because it helps your website become more visible to potential customers without paying for ads. Higher rankings in search results can lead to increased organic traffic, better brand awareness, and more credibility. This can result in more leads, sales, and long-term growth for your business.",
   },
   {
     id: 3,
     question: "How long does it take to see SEO results?",
     answer:
-      "SEO is an ongoing process, and the time it takes to see results varies. It can take several months to start seeing significant improvements in search engine rankings.",
+      "SEO is a long-term strategy, and results typically don't happen overnight. Generally, you might start seeing initial improvements in 3-6 months, but significant results often take 6-12 months or more. The timeline can vary based on factors like your website's current state, competition, and the consistency of your SEO efforts.",
   },
   {
     id: 4,
     question: "What factors influence SEO?",
     answer:
-      "Several factors influence SEO, including website content, structure, performance, backlinks, and user experience. Search engines use complex algorithms to evaluate these factors and determine rankings.",
+      "Many factors affect SEO, including: 1) Quality content that matches user intent, 2) Website structure and technical optimization, 3) Mobile-friendliness, 4) Page load speed, 5) Backlinks from reputable sites, 6) User experience signals like time on site and bounce rate, 7) Local SEO factors for businesses with physical locations, and 8) Social signals and online reputation.",
+  },
+  {
+    id: 5,
+    question: "Can I do SEO myself, or should I hire a professional?",
+    answer:
+      "While you can learn and implement basic SEO practices yourself, hiring a professional often yields better results, especially for competitive industries. SEO professionals stay up-to-date with the latest trends and algorithm changes, have experience with various tools, and can develop comprehensive strategies. For small businesses or personal websites, learning DIY SEO can be a good starting point.",
+  },
+  {
+    id: 6,
+    question: "How does mobile optimization affect SEO?",
+    answer:
+      "Mobile optimization is crucial for SEO because Google uses mobile-first indexing. This means Google primarily uses the mobile version of your site for ranking and indexing. A mobile-friendly website improves user experience, reduces bounce rates, and can lead to higher search rankings. Ensure your site is responsive, loads quickly on mobile devices, and provides a seamless experience across all screen sizes.",
+  },
+  {
+    id: 7,
+    question: "What's the difference between on-page and off-page SEO?",
+    answer:
+      "On-page SEO refers to optimizations you make directly on your website, such as improving content quality, optimizing title tags and meta descriptions, ensuring proper header structure, and improving site speed. Off-page SEO involves actions taken outside of your website to improve its search engine rankings, primarily through building high-quality backlinks from other reputable websites.",
   },
 ];
 
