@@ -32,9 +32,17 @@ export default function SEO() {
           What are the benefits of SEO?
         </h2>
         <p className="text-lg mb-6">
-          When I work with you to build your website, ongoing SEO is optional,
-          but highly recommended in many cases. Here&apos;s why my clients
-          choose to utilise my SEO skills:
+          SEO offers numerous advantages for your online presence. It
+          significantly increases your website&apos;s visibility in search
+          results, driving more organic traffic to your site without ongoing ad
+          costs. This improved visibility leads to higher click-through rates
+          and more qualified leads. SEO also enhances user experience by making
+          your site faster, easier to navigate, and mobile-friendly. It builds
+          long-term credibility for your brand, as users tend to trust websites
+          that appear higher in search rankings. Moreover, SEO provides valuable
+          insights into your customers&apos; behavior and preferences, allowing
+          you to refine your marketing strategies. Here are some key benefits my
+          clients experience when leveraging SEO:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-[#255036] p-0.5 rounded-lg shadow-lg hover:scale-105 transition duration-300 ease-in-out group">
