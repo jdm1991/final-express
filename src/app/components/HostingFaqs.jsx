@@ -57,10 +57,10 @@ export default function HostingFaqs() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-12 text-black">
-        Web Hosting &amp; Maintenance FAQs
-      </h1>
+    <div className="mt-12">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-[#255036]">
+        Web Hosting &amp; Maintenance Frequently Asked Questions
+      </h2>
       {data.map((faq) => (
         <div
           key={faq.id}

@@ -5,45 +5,45 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 const data = [
   {
     id: 1,
-    question: "What is SEO?",
+    question: "What is SEO and why is it important?",
     answer:
-      "SEO stands for Search Engine Optimization. It's the practice of improving your website to increase its visibility when people search for products or services related to your business on search engines like Google. The goal is to appear higher in search results, making it more likely for users to click on your site.",
+      "SEO stands for Search Engine Optimization. It's the practice of optimizing your website to increase its visibility for relevant searches. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.",
   },
   {
     id: 2,
-    question: "Why is SEO important?",
+    question: "What SEO services do you offer?",
     answer:
-      "SEO is crucial because it helps your website become more visible to potential customers without paying for ads. Higher rankings in search results can lead to increased organic traffic, better brand awareness, and more credibility. This can result in more leads, sales, and long-term growth for your business.",
+      "We offer a range of SEO services including keyword research, on-page optimization, content creation, link building, technical SEO audits, and local SEO strategies. Our goal is to improve your website's search engine rankings and drive more organic traffic to your site.",
   },
   {
     id: 3,
-    question: "How long does it take to see SEO results?",
+    question: "How long does it take to see results from SEO?",
     answer:
-      "SEO is a long-term strategy, and results typically don't happen overnight. Generally, you might start seeing initial improvements in 3-6 months, but significant results often take 6-12 months or more. The timeline can vary based on factors like your website's current state, competition, and the consistency of your SEO efforts.",
+      "SEO is a long-term strategy, and results can vary depending on factors such as your website's current state, competition, and industry. Generally, you might start seeing initial improvements in 3-6 months, but significant results often take 6-12 months or more. We provide regular reports to track progress and adjust strategies as needed.",
   },
   {
     id: 4,
-    question: "What factors influence SEO?",
+    question: "Do you guarantee first page rankings on Google?",
     answer:
-      "Many factors affect SEO, including: 1) Quality content that matches user intent, 2) Website structure and technical optimization, 3) Mobile-friendliness, 4) Page load speed, 5) Backlinks from reputable sites, 6) User experience signals like time on site and bounce rate, 7) Local SEO factors for businesses with physical locations, and 8) Social signals and online reputation.",
+      "While we strive to achieve the best possible rankings for our clients, we cannot guarantee specific rankings. Search engines use complex algorithms that are constantly changing. Instead, we focus on implementing best practices and strategies that have proven successful in improving search visibility and driving quality traffic to your website.",
   },
   {
     id: 5,
-    question: "Can I do SEO myself, or should I hire a professional?",
+    question: "How do you measure the success of your SEO efforts?",
     answer:
-      "While you can learn and implement basic SEO practices yourself, hiring a professional often yields better results, especially for competitive industries. SEO professionals stay up-to-date with the latest trends and algorithm changes, have experience with various tools, and can develop comprehensive strategies. For small businesses or personal websites, learning DIY SEO can be a good starting point.",
+      "We use a variety of metrics to measure SEO success, including organic traffic growth, keyword rankings, conversion rates, backlink quality and quantity, and overall website performance. We provide regular reports that detail these metrics and explain how they relate to your business goals.",
   },
   {
     id: 6,
-    question: "How does mobile optimization affect SEO?",
+    question: "Is SEO a one-time thing or an ongoing process?",
     answer:
-      "Mobile optimization is crucial for SEO because Google uses mobile-first indexing. This means Google primarily uses the mobile version of your site for ranking and indexing. A mobile-friendly website improves user experience, reduces bounce rates, and can lead to higher search rankings. Ensure your site is responsive, loads quickly on mobile devices, and provides a seamless experience across all screen sizes.",
+      "SEO is definitely an ongoing process. Search engines regularly update their algorithms, and your competitors are constantly working to improve their rankings. To maintain and improve your search engine visibility, it's important to continuously optimize your website, create fresh content, and stay up-to-date with the latest SEO best practices.",
   },
   {
     id: 7,
-    question: "What's the difference between on-page and off-page SEO?",
+    question: "How does SEO relate to content marketing?",
     answer:
-      "On-page SEO refers to optimizations you make directly on your website, such as improving content quality, optimizing title tags and meta descriptions, ensuring proper header structure, and improving site speed. Off-page SEO involves actions taken outside of your website to improve its search engine rankings, primarily through building high-quality backlinks from other reputable websites.",
+      "SEO and content marketing are closely related and work best when used together. Quality content is a key factor in SEO success, as search engines favor websites that provide valuable, relevant information to users. Our SEO strategies often include content marketing elements, such as blog posts, articles, and infographics, that are optimized for both search engines and user engagement.",
   },
 ];
 
@@ -55,10 +55,10 @@ export default function SeoFaqs() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-12 text-black">
+    <div className="mt-12">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-[#255036]">
         SEO Frequently Asked Questions
-      </h1>
+      </h2>
       {data.map((faq) => (
         <div
           key={faq.id}

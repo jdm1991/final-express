@@ -98,7 +98,7 @@ export default function Services() {
                   </p>
                 </div>
                 <Link
-                  href="/website-copywriting"
+                  href="/contact"
                   className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
@@ -122,7 +122,7 @@ export default function Services() {
                   </p>
                 </div>
                 <Link
-                  href="/website-consultancy"
+                  href="/contact"
                   className="absolute bottom-4 right-4 bg-[#255036] text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-400 hover:text-[#255036] transition duration-300 ease-in-out text-sm"
                 >
                   Learn More
