@@ -86,12 +86,12 @@ export default function HeroSection() {
           <div className="bg-[#255036] p-6 sm:p-8 rounded-lg relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
             <button
               onClick={() => setIsModalOpen(false)}
-              className="absolute top-2 right-2 text-white hover:text-gray-300"
+              className="absolute top-4 right-4 text-yellow-400 hover:text-yellow-300 text-3xl font-bold"
             >
               ✕
             </button>
             <h2 className="text-xl sm:text-2xl font-bold mb-8 sm:mb-10 text-center text-white">
-              I&apos;m looking for...
+              What can we help with?
             </h2>
             <div className="flex flex-col sm:flex-row justify-between space-y-10 sm:space-y-0 sm:space-x-6">
               {options.map((option) => (
