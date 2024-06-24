@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs";
 import HostingFaqs from "../components/HostingFaqs";
@@ -19,8 +18,8 @@ export default function Faqs() {
           </h1>
           <p className="text-lg mb-6 text-white">
             Find answers to common questions about our services, processes, and
-            more. If you can't find what you're looking for, don't hesitate to
-            get in touch with us.
+            more. If you can&apos;t find what you&apos;re looking for,
+            don&apos;t hesitate to get in touch with us.
           </p>
         </div>
       </section>

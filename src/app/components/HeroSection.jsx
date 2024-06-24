@@ -45,19 +45,19 @@ export default function HeroSection() {
       <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
         <div className="text-center text-white max-w-full">
           <h1
-            className={`text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 ${
+            className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 ${
               typingAnimation ? "typing" : ""
             }`}
           >
             Welcome to Our Web Design Studio
           </h1>
-          <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl mb-8">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-8">
             We create stunning and functional websites that bring your vision to
             life.
           </p>
           <button
             onClick={handleGetStarted}
-            className="bg-yellow-400 text-black px-3 xs:px-4 sm:px-6 py-1 xs:py-2 sm:py-3 rounded-full text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
+            className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
           >
             Get Started
           </button>
@@ -82,27 +82,27 @@ export default function HeroSection() {
         }}
       />
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 animate-fade-in">
-          <div className="bg-[#255036] p-6 rounded-lg relative max-w-3xl w-full">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 animate-fade-in p-4">
+          <div className="bg-[#255036] p-4 sm:p-6 rounded-lg relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
             <button
               onClick={() => setIsModalOpen(false)}
               className="absolute top-2 right-2 text-white hover:text-gray-300"
             >
               ✕
             </button>
-            <h2 className="text-2xl font-bold mb-8 text-center text-white">
-              I'm looking for...
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center text-white">
+              I&apos;m looking for...
             </h2>
-            <div className="flex justify-between space-x-6">
+            <div className="flex flex-col sm:flex-row justify-between space-y-4 sm:space-y-0 sm:space-x-4">
               {options.map((option) => (
                 <div
                   key={option.name}
-                  className="flex flex-col items-center space-y-4 flex-1"
+                  className="flex flex-col items-center space-y-2 sm:space-y-4 flex-1"
                 >
-                  <option.icon className="text-white text-6xl" />
+                  <option.icon className="text-white text-4xl sm:text-5xl lg:text-6xl" />
                   <button
                     onClick={() => handleOptionClick(option.route)}
-                    className="w-full bg-yellow-400 text-black py-3 px-4 rounded-full font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
+                    className="w-full bg-yellow-400 text-black py-2 sm:py-3 px-2 sm:px-4 rounded-full text-sm sm:text-base font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
                   >
                     {option.name}
                   </button>
