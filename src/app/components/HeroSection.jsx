@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { FaPencilRuler, FaServer, FaChartLine } from "react-icons/fa";
 
 export default function HeroSection() {
   const [backgroundImage, setBackgroundImage] = useState("Coding.jpeg");
@@ -34,9 +35,9 @@ export default function HeroSection() {
   };
 
   const options = [
-    { name: "Web Design", route: "webDesign" },
-    { name: "Web Hosting", route: "webHosting" },
-    { name: "SEO", route: "SEO" },
+    { name: "Web Design", route: "webDesign", icon: FaPencilRuler },
+    { name: "Web Hosting", route: "webHosting", icon: FaServer },
+    { name: "SEO", route: "SEO", icon: FaChartLine },
   ];
 
   return (
@@ -56,7 +57,7 @@ export default function HeroSection() {
           </p>
           <button
             onClick={handleGetStarted}
-            className="bg-yellow-400 text-dark-green px-3 xs:px-4 sm:px-6 py-1 xs:py-2 sm:py-3 rounded-full text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
+            className="bg-yellow-400 text-black px-3 xs:px-4 sm:px-6 py-1 xs:py-2 sm:py-3 rounded-full text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
           >
             Get Started
           </button>
@@ -82,25 +83,30 @@ export default function HeroSection() {
       />
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 animate-fade-in">
-          <div className="bg-white p-6 rounded-lg relative max-w-2xl w-full">
+          <div className="bg-[#255036] p-6 rounded-lg relative max-w-3xl w-full">
             <button
               onClick={() => setIsModalOpen(false)}
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
+              className="absolute top-2 right-2 text-white hover:text-gray-300"
             >
               ✕
             </button>
-            <h2 className="text-2xl font-bold mb-4 text-center">
+            <h2 className="text-2xl font-bold mb-8 text-center text-white">
               I'm looking for...
             </h2>
-            <div className="flex justify-between space-x-4">
+            <div className="flex justify-between space-x-6">
               {options.map((option) => (
-                <button
+                <div
                   key={option.name}
-                  onClick={() => handleOptionClick(option.route)}
-                  className="flex-1 bg-yellow-400 text-dark-green py-2 px-4 rounded-full font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
+                  className="flex flex-col items-center space-y-4 flex-1"
                 >
-                  {option.name}
-                </button>
+                  <option.icon className="text-white text-6xl" />
+                  <button
+                    onClick={() => handleOptionClick(option.route)}
+                    className="w-full bg-yellow-400 text-black py-3 px-4 rounded-full font-semibold hover:bg-yellow-300 transition-colors duration-300 border-2 border-gray-700 transform hover:scale-105"
+                  >
+                    {option.name}
+                  </button>
+                </div>
               ))}
             </div>
           </div>
