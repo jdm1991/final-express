@@ -55,43 +55,45 @@ export default function SeoFaqs() {
   };
 
   return (
-    <div className="mt-12">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-[#255036]">
-        SEO Frequently Asked Questions
-      </h2>
-      {data.map((faq) => (
-        <div
-          key={faq.id}
-          className="border border-gray-300 rounded-md mb-4 overflow-hidden"
-        >
-          <button
-            className={`flex justify-between items-center w-full px-4 py-3 sm:px-6 sm:py-4 text-left text-base sm:text-lg font-medium text-gray-700 focus:outline-none transition-colors duration-300 ${
-              activeQuestion === faq.id
-                ? "bg-[#255036] text-white"
-                : "hover:bg-[#255036] hover:text-white"
-            }`}
-            onClick={() => toggleAccordion(faq.id)}
-          >
-            <span>{faq.question}</span>
-            <ChevronDownIcon
-              className={`${
-                activeQuestion === faq.id ? "transform rotate-180" : ""
-              } w-5 h-5 text-gray-500 transition-transform duration-300`}
-            />
-          </button>
+    <div className="mt-12 relative w-screen left-1/2 right-1/2 -mx-[50vw]">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-[#255036]">
+          SEO Frequently Asked Questions
+        </h2>
+        {data.map((faq) => (
           <div
-            className={`overflow-hidden transition-all duration-300 ${
-              activeQuestion === faq.id
-                ? "max-h-96 ease-in-out bg-[#255036]"
-                : "max-h-0 ease-in-out"
-            }`}
+            key={faq.id}
+            className="border border-gray-300 rounded-md mb-4 overflow-hidden"
           >
-            <div className="px-4 py-3 sm:px-6 sm:py-4 text-white">
-              {faq.answer}
+            <button
+              className={`flex justify-between items-center w-full py-3 sm:py-4 text-left text-base sm:text-lg font-medium text-gray-700 focus:outline-none transition-colors duration-300 ${
+                activeQuestion === faq.id
+                  ? "bg-[#255036] text-white"
+                  : "hover:bg-[#255036] hover:text-white"
+              }`}
+              onClick={() => toggleAccordion(faq.id)}
+            >
+              <span className="px-4">{faq.question}</span>
+              <ChevronDownIcon
+                className={`${
+                  activeQuestion === faq.id ? "transform rotate-180" : ""
+                } w-5 h-5 text-gray-500 transition-transform duration-300 mr-4`}
+              />
+            </button>
+            <div
+              className={`overflow-hidden transition-all duration-300 ${
+                activeQuestion === faq.id
+                  ? "max-h-96 ease-in-out bg-[#255036]"
+                  : "max-h-0 ease-in-out"
+              }`}
+            >
+              <div className="py-3 sm:py-4 text-white">
+                <p className="px-4">{faq.answer}</p>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
