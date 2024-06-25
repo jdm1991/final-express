@@ -47,19 +47,25 @@ export default function ContactPage() {
               <h2 className="text-2xl lg:text-3xl font-bold text-white">
                 Why not get in touch?
               </h2>
-              
             </div>
             <div className="flex flex-col space-y-6">
               <div className="flex items-center group hover:bg-[#1e3d29] hover:text-[#ffcf40] transition duration-300 rounded-md p-2">
-                <span className="text-xl font-semibold w-20">Email:</span>
-                <FaEnvelope className="mr-4 flex-shrink-0" size={24} />
-                <p className="text-lg lg:text-xl break-all group-hover:text-[#ffcf40]">
+                <span className="text-xl font-semibold w-20 flex-shrink-0">
+                  Email:
+                </span>
+                <FaEnvelope className="mr-2 flex-shrink-0" size={24} />
+                <a
+                  href="mailto:info@expresswebdesigns.co.uk"
+                  className="text-lg lg:text-xl group-hover:text-[#ffcf40] whitespace-nowrap overflow-hidden text-ellipsis"
+                >
                   info@expresswebdesigns.co.uk
-                </p>
+                </a>
               </div>
               <div className="flex items-center group hover:bg-[#1e3d29] hover:text-[#ffcf40] transition duration-300 rounded-md p-2">
-                <span className="text-xl font-semibold w-20">Call:</span>
-                <FaWhatsapp className="mr-4 flex-shrink-0" size={24} />
+                <span className="text-xl font-semibold w-20 flex-shrink-0">
+                  Call:
+                </span>
+                <FaWhatsapp className="mr-2 flex-shrink-0" size={24} />
                 <p className="text-lg lg:text-xl group-hover:text-[#ffcf40]">
                   +1 234 567 8900
                 </p>
@@ -134,9 +140,8 @@ export default function ContactPage() {
                   >
                     <option value="">Select a service</option>
                     <option value="web-design">Web Design</option>
-                    <option value="web-development">Web Development</option>
                     <option value="seo">SEO</option>
-                    <option value="maintenance">Website Maintenance</option>
+                    <option value="maintenance">Hosting & Maintenance</option>
                     <option value="other">Other</option>
                   </select>
                 </div>

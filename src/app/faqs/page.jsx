@@ -9,7 +9,7 @@ export default function Faqs() {
     <div className="bg-white">
       <section
         className="bg-gray-100 pt-24 pb-8 sm:pb-12 bg-cover bg-center relative"
-        style={{ backgroundImage: "url('/faqsBackgroundImage.jpeg')" }}
+        style={{ backgroundImage: "url('/FAQ.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8">
