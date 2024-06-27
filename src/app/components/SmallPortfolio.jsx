@@ -24,8 +24,9 @@ export default function Portfolio() {
               <p className="text-gray-600 text-sm mb-6">
                 An e-commerce store built for a thriving small business.
               </p>
-              
-               <a href="https://sapphire-lash.com/"
+
+              <a
+                href="https://sapphire-lash.com/"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
@@ -49,8 +50,9 @@ export default function Portfolio() {
                 Due to a NDA, we can&apos;t disclose the actual site, however we
                 have recreated the structure so you can see how it functions.
               </p>
-              
-               <a href="#"
+
+              <a
+                href="https://sky-estate.netlify.app/"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
@@ -74,8 +76,9 @@ export default function Portfolio() {
                 A small e-commerce store designed to optimise and sell a range
                 of beauty products for a fledgling business.
               </p>
-              
-              <a  href="#"
+
+              <a
+                href="https://wildbeauty.uk/"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
