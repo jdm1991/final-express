@@ -1,5 +1,6 @@
 // ContactSection.js
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GetInTouch() {
   return (
@@ -25,12 +26,12 @@ export default function GetInTouch() {
           >
             Let&apos;s Chat
           </a>
-          
-           <a href="/contact"
+          <Link
+            href="/contact"
             className="bg-yellow-400 text-black py-4 md:py-6 px-8 md:px-12 rounded-lg text-lg md:text-2xl font-bold border border-black hover:bg-yellow-500 hover:scale-105 transition-all duration-300 w-full md:w-auto text-center"
           >
             Request a Quote
-          </a>
+          </Link>
         </div>
       </div>
     </section>
