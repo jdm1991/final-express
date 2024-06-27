@@ -10,13 +10,13 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12">
           {/* Portfolio Tile 1 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-56 relative">
+            <div className="h-56 w-full relative">
               <Image
                 src="/Sapphire.png"
                 alt="Sapphire"
                 layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                objectFit="contain"
+                quality={100}
               />
             </div>
             <div className="p-6 flex flex-col h-64">
@@ -24,8 +24,8 @@ export default function Portfolio() {
               <p className="text-gray-600 text-sm mb-6">
                 An e-commerce store built for a thriving small business.
               </p>
-              <a
-                href="https://sapphire-lash.com/"
+              
+               <a href="https://sapphire-lash.com/"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
@@ -34,13 +34,13 @@ export default function Portfolio() {
           </div>
           {/* Portfolio Tile 2 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-56 relative">
+            <div className="h-56 w-full relative">
               <Image
                 src="/SkyEstate.png"
                 alt="Sky-Estate"
                 layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                objectFit="contain"
+                quality={100}
               />
             </div>
             <div className="p-6 flex flex-col h-64">
@@ -49,8 +49,8 @@ export default function Portfolio() {
                 Due to a NDA, we can&apos;t disclose the actual site, however we
                 have recreated the structure so you can see how it functions.
               </p>
-              <a
-                href="#"
+              
+               <a href="#"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
@@ -59,13 +59,13 @@ export default function Portfolio() {
           </div>
           {/* Portfolio Tile 3 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-56 relative">
+            <div className="h-56 w-full relative">
               <Image
-                src="/wildBeauty.jpg"
+                src="/wildBeauty.jpeg"
                 alt="Wild Beauty"
                 layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                objectFit="contain"
+                quality={100}
               />
             </div>
             <div className="p-6 flex flex-col h-64">
@@ -74,8 +74,8 @@ export default function Portfolio() {
                 A small e-commerce store designed to optimise and sell a range
                 of beauty products for a fledgling business.
               </p>
-              <a
-                href="#"
+              
+              <a  href="#"
                 className="mt-auto inline-block bg-[#255036] text-white font-bold py-3 px-6 rounded hover:bg-[#1f412a] transition duration-300 text-sm text-center"
               >
                 Visit Page
