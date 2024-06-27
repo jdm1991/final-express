@@ -1,6 +1,19 @@
+import Head from "next/head";
+
 export default function About() {
   return (
     <>
+      <Head>
+        <title>About Express Web | Web Design & Development in Norfolk</title>
+        <meta
+          name="description"
+          content="Learn about Express Web, a passionate team of web developers and designers based in Norfolk, England. Discover our approach to creating engaging digital experiences."
+        />
+        <meta
+          name="keywords"
+          content="about us, web design team, Norfolk web developers, custom websites"
+        />
+      </Head>
       <main>
         <section className="about-intro pt-24 pb-8 sm:pb-12 md:pb-16 text-white relative">
           <div
