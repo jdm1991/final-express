@@ -6,7 +6,6 @@ import Features from "../components/Features";
 import SmallPortfolio from "../components/SmallPortfolio";
 import GetInTouch from "../components/GetInTouch";
 import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs";
-import FadeInSection from "../components/FadeInSection";
 
 export default function WebDesignClient() {
   useEffect(() => {
@@ -15,7 +14,6 @@ export default function WebDesignClient() {
   }, []);
   return (
     <div className="overflow-x-hidden">
-      <FadeInSection>
         <div>
           <section
             className="bg-gray-100 pt-16 sm:pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
@@ -297,7 +295,6 @@ export default function WebDesignClient() {
           <WebsiteDesignFaqs />
           <GetInTouch />
         </div>
-      </FadeInSection>
     </div>
   );
 }
