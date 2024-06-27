@@ -6,20 +6,16 @@ import GetInTouch from "../components/GetInTouch";
 import WebsiteDesignFaqs from "../components/WebsiteDesignFaqs";
 import FadeInSection from "../components/FadeInSection";
 
+export const metadata = {
+  title: "Website Design Services | Express Web Design",
+  description:
+    "Professional website design services tailored for small businesses, e-commerce, and large enterprises. Create stunning, functional websites with Express Web.",
+};
+
+
 export default function WebsiteDesign() {
   return (
     <>
-      <Head>
-        <title>Website Design Services | Express Web</title>
-        <meta
-          name="description"
-          content="Professional website design services tailored for small businesses, e-commerce, and large enterprises. Create stunning, functional websites with Express Web."
-        />
-        <meta
-          name="keywords"
-          content="website design, web development, responsive design, e-commerce websites, small business websites"
-        />
-      </Head>
       <FadeInSection>
         <div>
           <section
