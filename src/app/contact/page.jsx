@@ -43,32 +43,40 @@ export default function ContactPage() {
         {/* Content Section */}
         <div className="flex-grow flex flex-col lg:flex-row">
           {/* Left Section */}
-          <div className="w-full lg:w-1/3 bg-[#255036] p-6 lg:p-8 flex flex-col">
+          <div className="w-full lg:w-1/3 bg-[#255036] p-4 sm:p-6 lg:p-8 flex flex-col">
             <div className="w-full text-white">
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-2xl lg:text-3xl font-bold text-white">
+              <div className="flex justify-between items-center mb-4 sm:mb-6">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white">
                   Why not get in touch?
                 </h2>
               </div>
-              <div className="flex flex-col space-y-6">
+              <div className="flex flex-col space-y-4">
                 <div className="flex items-center group hover:bg-[#1e3d29] hover:text-[#ffcf40] transition duration-300 rounded-md p-2">
-                  <span className="text-xl font-semibold w-20 flex-shrink-0">
+                  <span className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold w-12 sm:w-16 flex-shrink-0">
                     Email:
                   </span>
-                  <FaEnvelope className="mr-2 flex-shrink-0" size={24} />
-                  <a
-                    href="mailto:info@expresswebdesigns.co.uk"
-                    className="text-lg lg:text-xl group-hover:text-[#ffcf40] whitespace-nowrap overflow-hidden text-ellipsis"
-                  >
-                    info@expresswebdesigns.co.uk
-                  </a>
+                  <div className="flex items-center min-w-0 flex-grow">
+                    <FaEnvelope
+                      className="mr-1 sm:mr-2 flex-shrink-0"
+                      size={16}
+                    />
+                    <a
+                      href="mailto:info@expresswebdesigns.co.uk"
+                      className="text-xs sm:text-sm md:text-base lg:text-lg group-hover:text-[#ffcf40] truncate"
+                    >
+                      info@expresswebdesigns.co.uk
+                    </a>
+                  </div>
                 </div>
                 <div className="flex items-center group hover:bg-[#1e3d29] hover:text-[#ffcf40] transition duration-300 rounded-md p-2">
-                  <span className="text-xl font-semibold w-20 flex-shrink-0">
+                  <span className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold w-12 sm:w-16 flex-shrink-0">
                     Call:
                   </span>
-                  <FaWhatsapp className="mr-2 flex-shrink-0" size={24} />
-                  <p className="text-lg lg:text-xl group-hover:text-[#ffcf40]">
+                  <FaWhatsapp
+                    className="mr-1 sm:mr-2 flex-shrink-0"
+                    size={16}
+                  />
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg group-hover:text-[#ffcf40]">
                     +1 234 567 8900
                   </p>
                 </div>
@@ -78,10 +86,10 @@ export default function ContactPage() {
 
           {/* Right Section */}
           <div
-            className="w-full lg:w-2/3 bg-cover bg-center p-6 lg:p-8"
+            className="w-full lg:w-2/3 bg-cover bg-center p-4 sm:p-6 lg:p-8"
             style={{ backgroundImage: "url('/tablet.jpeg')" }}
           >
-            <div className="bg-white p-6 rounded-lg text-black shadow-lg">
+            <div className="bg-white p-4 sm:p-6 rounded-lg text-black shadow-lg">
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
