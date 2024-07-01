@@ -14,15 +14,15 @@ export default function WebHosting() {
     <FadeInSection>
       <div className="bg-white">
         <section
-          className="bg-gray-100 pt-24 pb-8 sm:pb-12 md:pb-16 bg-cover bg-center relative"
+          className="bg-gray-100 pt-20 pb-8 sm:pt-24 sm:pb-12 md:pb-16 bg-cover bg-center relative"
           style={{ backgroundImage: "url('/websiteHostingpic.jpeg')" }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
+          <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 relative z-10 pt-4 sm:pt-8 md:pt-12">
+            <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white leading-tight tracking-tight">
               Web Hosting &amp; Maintenance
             </h1>
-            <p className="text-lg mb-6 text-white">
+            <p className="text-sm xs:text-base sm:text-lg mb-6 text-white">
               Your website is a crucial component of your online presence, which
               is why we offer tailored solutions for all our customers. Our goal
               is to ensure that your website not only performs as it should but
