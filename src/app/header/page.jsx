@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { BsDoorOpen } from "react-icons/bs";
@@ -9,6 +9,20 @@ import "../styles/globals.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -21,11 +35,13 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/">
               <Image
-                src="/Express.svg"
+                src={isMobile ? "/EWD.svg" : "/Express.svg"}
                 alt="Express Logo"
                 width={150}
                 height={150}
-                className="object-contain w-24 sm:w-32 md:w-40 lg:w-48"
+                className={`object-contain ${
+                  isMobile ? "w-20 sm:w-24" : "w-24 sm:w-32 md:w-40 lg:w-48"
+                }`}
               />
             </Link>
           </div>
