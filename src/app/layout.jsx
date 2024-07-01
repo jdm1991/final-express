@@ -5,7 +5,18 @@ import "./styles/globals.css";
 
 export const metadata = {
   icons: {
-    icon: "/Express.svg",
+    icon: [
+      {
+        url: "/Express-favicon.svg",
+        type: "image/svg+xml",
+        sizes: "any",
+      },
+    ],
+    apple: {
+      url: "/Express-favicon.svg",
+      type: "image/svg+xml",
+      sizes: "180x180",
+    },
   },
 };
 
