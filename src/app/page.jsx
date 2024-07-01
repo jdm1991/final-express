@@ -11,7 +11,7 @@ import SmallPortfolio from "./components/SmallPortfolio.jsx";
 export const metadata = {
   title: "Express Web Design | Professional Web Design & Development Services",
   description:
-    "Express Web offers expert web design, development, and SEO services. Create stunning, functional websites tailored for your business needs.",
+    "Express Web Design offers expert web design, development, and SEO services. Create stunning, functional websites tailored for your business needs.",
 };
 
 export default function Home() {
